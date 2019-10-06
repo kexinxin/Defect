@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="fastcheck:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/fastcheck_jar</output-path>
+    <root id="archive" name="fastcheck.jar">
+      <element id="module-output" name="fastcheck" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/jars/java-cup-11a.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/jars/java-cup-11a-runtime.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/jars/JFlex.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/jars/sat4j-1.6.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

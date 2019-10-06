@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="gitblit">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/gitblit.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

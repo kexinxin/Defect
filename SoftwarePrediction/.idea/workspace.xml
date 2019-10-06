@@ -1,0 +1,952 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/mahakil/Imahakil.py" line="70" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a52a110e-6bca-4741-8a0a-e5177da22784" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/software_prediction_AdaBoost$MAHAKILLogistic.coverage" NAME="MAHAKILLogistic Coverage Results" MODIFIED="1555987036238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm" />
+    <SUITE FILE_PATH="coverage/software_prediction_AdaBoost$mahakil.coverage" NAME="mahakil Coverage Results" MODIFIED="1555913844944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mahakil" />
+    <SUITE FILE_PATH="coverage/Imbalance_software_defect_predicion$FeatureSelect.coverage" NAME="FeatureSelect Coverage Results" MODIFIED="1567244960116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
+    <SUITE FILE_PATH="coverage/software_prediction_AdaBoost$ImproveAdaBoost.coverage" NAME="ImproveAdaBoost Coverage Results" MODIFIED="1555574956867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/software_prediction_AdaBoost$kFoldTest__1_.coverage" NAME="kFoldTest (1) Coverage Results" MODIFIED="1556098845732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/software_prediction_AdaBoost$BorderLogistic.coverage" NAME="BorderLogistic Coverage Results" MODIFIED="1555987054431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm" />
+    <SUITE FILE_PATH="coverage/software_prediction_AdaBoost$Imahakil.coverage" NAME="Imahakil Coverage Results" MODIFIED="1556070097380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mahakil" />
+    <SUITE FILE_PATH="coverage/software_prediction_AdaBoost$DataGenerate.coverage" NAME="DataGenerate Coverage Results" MODIFIED="1555596942601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/software_prediction_AdaBoost$smote.coverage" NAME="smote Coverage Results" MODIFIED="1555935051780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OverSampleAlgorithm" />
+    <SUITE FILE_PATH="coverage/software_prediction_AdaBoost$main3.coverage" NAME="main3 Coverage Results" MODIFIED="1555922181199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AdaBoost_master$main.coverage" NAME="main Coverage Results" MODIFIED="1550145117448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/software_prediction_AdaBoost$logistic.coverage" NAME="logistic Coverage Results" MODIFIED="1556118870458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm" />
+    <SUITE FILE_PATH="coverage/Imbalance_software_defect_predicion$Experiment_for_mahakil.coverage" NAME="Experiment_for_mahakil Coverage Results" MODIFIED="1564409600553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mahakil" />
+    <SUITE FILE_PATH="coverage/software_prediction_AdaBoost$SMOTELogistic.coverage" NAME="SMOTELogistic Coverage Results" MODIFIED="1555986891112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm" />
+    <SUITE FILE_PATH="coverage/Imbalance_software_defect_predicion$generateOneDimention.coverage" NAME="generateOneDimention Coverage Results" MODIFIED="1558493192080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demostration" />
+    <SUITE FILE_PATH="coverage/Imbalance_software_defect_predicion$testsmote.coverage" NAME="testsmote Coverage Results" MODIFIED="1566717929738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OverSampleAlgorithm" />
+    <SUITE FILE_PATH="coverage/software_prediction_AdaBoost$kFoldTest2.coverage" NAME="kFoldTest2 Coverage Results" MODIFIED="1556118985181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/software_prediction_AdaBoost$RandomOverSampler.coverage" NAME="RandomOverSampler Coverage Results" MODIFIED="1555944924855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OverSampleAlgorithm" />
+    <SUITE FILE_PATH="coverage/software_prediction_AdaBoost$testBorderlineOverSampling.coverage" NAME="testBorderlineOverSampling Coverage Results" MODIFIED="1555986579221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OverSampleAlgorithm" />
+    <SUITE FILE_PATH="coverage/Imbalance_software_defect_predicion$_split.coverage" NAME="_split Coverage Results" MODIFIED="1566725000590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/sklearn/model_selection" />
+    <SUITE FILE_PATH="coverage/software_prediction_AdaBoost$Experiment_for_mahakil.coverage" NAME="Experiment_for_mahakil Coverage Results" MODIFIED="1555917769169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mahakil" />
+    <SUITE FILE_PATH="coverage/Imbalance_software_defect_predicion$generateGraph.coverage" NAME="generateGraph Coverage Results" MODIFIED="1558513639222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demostration" />
+    <SUITE FILE_PATH="coverage/Imbalance_software_defect_predicion$MAHAKILLogistic.coverage" NAME="MAHAKILLogistic Coverage Results" MODIFIED="1556202984588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
+    <SUITE FILE_PATH="coverage/software_prediction_AdaBoost$Student.coverage" NAME="Student Coverage Results" MODIFIED="1555486497890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Imbalance_software_defect_predicion$MyResultGenerate.coverage" NAME="MyResultGenerate Coverage Results" MODIFIED="1566920579517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/resultGenerate" />
+    <SUITE FILE_PATH="coverage/software_prediction_AdaBoost$test.coverage" NAME="test Coverage Results" MODIFIED="1556011194845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Imbalance_software_defect_predicion$smote.coverage" NAME="smote Coverage Results" MODIFIED="1566748134211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OverSampleAlgorithm" />
+    <SUITE FILE_PATH="coverage/software_prediction_AdaBoost$IMAHAKILLogistic.coverage" NAME="IMAHAKILLogistic Coverage Results" MODIFIED="1555987058368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm" />
+    <SUITE FILE_PATH="coverage/software_prediction_AdaBoost$ROSLogistic.coverage" NAME="ROSLogistic Coverage Results" MODIFIED="1555987649093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm" />
+    <SUITE FILE_PATH="coverage/software_prediction_AdaBoost$AdaBoost.coverage" NAME="AdaBoost Coverage Results" MODIFIED="1555599140496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/software_prediction_AdaBoost$main2.coverage" NAME="main2 Coverage Results" MODIFIED="1555921583717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Imbalance_software_defect_predicion$Evaluate.coverage" NAME="Evaluate Coverage Results" MODIFIED="1567175428393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
+    <SUITE FILE_PATH="coverage/software_prediction_AdaBoost$testAdasyn.coverage" NAME="testAdasyn Coverage Results" MODIFIED="1555936418985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OverSampleAlgorithm" />
+    <SUITE FILE_PATH="coverage/software_prediction_AdaBoost$BorderlineOverSamplling.coverage" NAME="BorderlineOverSamplling Coverage Results" MODIFIED="1555986575064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OverSampleAlgorithm" />
+    <SUITE FILE_PATH="coverage/software_prediction_AdaBoost$HandleResult.coverage" NAME="HandleResult Coverage Results" MODIFIED="1556181452356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/handleResult" />
+    <SUITE FILE_PATH="coverage/software_prediction_AdaBoost$testROS.coverage" NAME="testROS Coverage Results" MODIFIED="1555945017020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OverSampleAlgorithm" />
+    <SUITE FILE_PATH="coverage/Imbalance_software_defect_predicion$logistic__1_.coverage" NAME="logistic (1) Coverage Results" MODIFIED="1556183084670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
+    <SUITE FILE_PATH="coverage/software_prediction_AdaBoost$ADASYNLogistic.coverage" NAME="ADASYNLogistic Coverage Results" MODIFIED="1555987077991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm" />
+    <SUITE FILE_PATH="coverage/software_prediction_AdaBoost$MAHAKIL.coverage" NAME="MAHAKIL Coverage Results" MODIFIED="1555919435895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm" />
+    <SUITE FILE_PATH="coverage/software_prediction_AdaBoost$DataSetTool.coverage" NAME="DataSetTool Coverage Results" MODIFIED="1555895676620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mahakil" />
+    <SUITE FILE_PATH="coverage/software_prediction_AdaBoost$SVM.coverage" NAME="SVM Coverage Results" MODIFIED="1555920360290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm" />
+    <SUITE FILE_PATH="coverage/software_prediction_AdaBoost$IMAHAKIL.coverage" NAME="IMAHAKIL Coverage Results" MODIFIED="1555919392836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm" />
+    <SUITE FILE_PATH="coverage/software_prediction_AdaBoost$kFoldTest.coverage" NAME="kFoldTest Coverage Results" MODIFIED="1556024114317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/software_prediction_AdaBoost$kFoldTest3.coverage" NAME="kFoldTest3 Coverage Results" MODIFIED="1556157998030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/software_prediction_AdaBoost$main.coverage" NAME="main Coverage Results" MODIFIED="1555921652947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Imbalance_software_defect_predicion$mahakil.coverage" NAME="mahakil Coverage Results" MODIFIED="1558358917212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mahakil" />
+    <SUITE FILE_PATH="coverage/Imbalance_software_defect_predicion$main3.coverage" NAME="main3 Coverage Results" MODIFIED="1557490326182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ImproveAdaBoost" />
+    <SUITE FILE_PATH="coverage/software_prediction_AdaBoost$IBOSLogistic.coverage" NAME="IBOSLogistic Coverage Results" MODIFIED="1555940685248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm" />
+    <SUITE FILE_PATH="coverage/software_prediction_AdaBoost$NaiveBayes.coverage" NAME="NaiveBayes Coverage Results" MODIFIED="1555919636025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/util/FeatureSelect.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="30" column="20" lean-forward="true" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>sums</find>
+      <find>self.sums</find>
+      <find>distanceArray</find>
+      <find>1</find>
+      <find>W</find>
+      <find>metrics_num</find>
+      <find>-1</find>
+      <find>dth</find>
+      <find>self.d</find>
+      <find>self.N</find>
+      <find>indexs</find>
+      <find>?</find>
+      <find>doc</find>
+      <find>software prediction AdaBoost</find>
+      <find>svm</find>
+      <find>14,3,1,1,32,128</find>
+      <find>4,1</find>
+      <find>72</find>
+      <find>Distance</find>
+      <find>self.pfp</find>
+      <find>generate_new_sample</find>
+      <find>self.synthetic</find>
+      <find>self.T</find>
+      <find>data_no_defect</find>
+      <find>self.label</find>
+      <find>smote</find>
+      <find>adasyn</find>
+      <find>self.b</find>
+      <find>N</find>
+      <find>Y</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>SoftwarePrediction</replace>
+      <replace>0</replace>
+      <replace>1</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/handleResult/ivy-1.4.result" />
+        <option value="$PROJECT_DIR$/handleResult/ivy-2.0.result" />
+        <option value="$PROJECT_DIR$/handleResult/xerces-1.2.result" />
+        <option value="$PROJECT_DIR$/handleResult/HandleResult.py" />
+        <option value="$PROJECT_DIR$/handleResult/xerces-1.3.result" />
+        <option value="$PROJECT_DIR$/algorithm/algorithm.txt" />
+        <option value="$PROJECT_DIR$/demo/ADASYNLogistic.py" />
+        <option value="$PROJECT_DIR$/dataset/kc3.txt" />
+        <option value="$PROJECT_DIR$/dataset/mw1.txt" />
+        <option value="$PROJECT_DIR$/demo/MAHAKILLogistic.py" />
+        <option value="$PROJECT_DIR$/ImproveAdaBoost/main3.py" />
+        <option value="$PROJECT_DIR$/testDataSet/oringData2.txt" />
+        <option value="$PROJECT_DIR$/OverSampleAlgorithm/testROS.py" />
+        <option value="$PROJECT_DIR$/testDataSet/oringData3" />
+        <option value="$PROJECT_DIR$/testDataSet/kc2" />
+        <option value="$PROJECT_DIR$/testDataSet/OneDimention" />
+        <option value="$PROJECT_DIR$/demostration/generateOneDimention.py" />
+        <option value="$PROJECT_DIR$/demostration/generateGraph.py" />
+        <option value="$PROJECT_DIR$/mahakil/test.txt" />
+        <option value="$PROJECT_DIR$/mahakil/Experiment_for_mahakil.py" />
+        <option value="$PROJECT_DIR$/mahakil/Distance.py" />
+        <option value="$PROJECT_DIR$/mahakil/Smahakil.py" />
+        <option value="$PROJECT_DIR$/OverSampleAlgorithm/testsmote.py" />
+        <option value="$PROJECT_DIR$/mahakil/IDistance.py" />
+        <option value="$PROJECT_DIR$/OverSampleAlgorithm/BorderlineOverSamplling.py" />
+        <option value="$PROJECT_DIR$/OverSampleAlgorithm/smote.py" />
+        <option value="$PROJECT_DIR$/mahakil/mahakil.py" />
+        <option value="$PROJECT_DIR$/OverSampleAlgorithm/adasyn.py" />
+        <option value="$PROJECT_DIR$/mahakil/Imahakil.py" />
+        <option value="$PROJECT_DIR$/resultGenerate/MyResultGenerate.py" />
+        <option value="$PROJECT_DIR$/dataset/kc2.txt" />
+        <option value="$PROJECT_DIR$/NASADataSet/CM1.csv" />
+        <option value="$PROJECT_DIR$/NASADataSet/JM1.csv" />
+        <option value="$PROJECT_DIR$/NASADataSet/KC1.csv" />
+        <option value="$PROJECT_DIR$/NASADataSet/KC3.csv" />
+        <option value="$PROJECT_DIR$/NASADataSet/KC4.csv" />
+        <option value="$PROJECT_DIR$/NASADataSet/MC1.csv" />
+        <option value="$PROJECT_DIR$/NASADataSet/MC2.csv" />
+        <option value="$PROJECT_DIR$/NASADataSet/MW1.csv" />
+        <option value="$PROJECT_DIR$/NASADataSet/PC1.csv" />
+        <option value="$PROJECT_DIR$/NASADataSet/PC2.csv" />
+        <option value="$PROJECT_DIR$/NASADataSet/PC3.csv" />
+        <option value="$PROJECT_DIR$/NASADataSet/PC5.csv" />
+        <option value="$PROJECT_DIR$/util/MetricsName.py" />
+        <option value="$PROJECT_DIR$/NASADataSet/PC4.csv" />
+        <option value="$PROJECT_DIR$/NASADataSet/order" />
+        <option value="$PROJECT_DIR$/util/orderMetrics.py" />
+        <option value="$PROJECT_DIR$/util/11" />
+        <option value="$PROJECT_DIR$/util/BestFeature" />
+        <option value="$PROJECT_DIR$/util/Evaluate.py" />
+        <option value="$PROJECT_DIR$/util/FeatureSelect.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="Imbalance_software_defect_predicion" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Imbalance_software_defect_predicion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SoftwarePrediction" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Imbalance_software_defect_predicion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SoftwarePrediction" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Imbalance_software_defect_predicion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SoftwarePrediction" type="462c0819:PsiDirectoryNode" />
+              <item name="NASADataSet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Imbalance_software_defect_predicion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SoftwarePrediction" type="462c0819:PsiDirectoryNode" />
+              <item name="resultGenerate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Imbalance_software_defect_predicion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SoftwarePrediction" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Correlation-based-Feature-Selection-master" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="I:\tools\SoftwarePrediction\NASADataSet" />
+      <recent name="I:\tools\SoftwarePrediction\mahakil" />
+      <recent name="I:\tools\SoftwarePrediction\dataset" />
+      <recent name="I:\tools\SoftwarePrediction\testDataSet" />
+      <recent name="I:\tools\software prediction AdaBoost\handleResult" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="I:\tools\software prediction AdaBoost\ImproveAdaBoost" />
+      <recent name="I:\tools\software prediction AdaBoost\dataset" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.FeatureSelect">
+    <configuration name="Evaluate" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Imbalance_software_defect_predicion" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/util" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/util/Evaluate.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="FeatureSelect" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Imbalance_software_defect_predicion" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/util" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/util/FeatureSelect.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="MyResultGenerate" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Imbalance_software_defect_predicion" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/resultGenerate" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/resultGenerate/MyResultGenerate.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="_split" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Imbalance_software_defect_predicion" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/sklearn/model_selection" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/sklearn/model_selection/_split.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="smote" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Imbalance_software_defect_predicion" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OverSampleAlgorithm" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OverSampleAlgorithm/smote.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.FeatureSelect" />
+        <item itemvalue="Python.Evaluate" />
+        <item itemvalue="Python.MyResultGenerate" />
+        <item itemvalue="Python.smote" />
+        <item itemvalue="Python._split" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a52a110e-6bca-4741-8a0a-e5177da22784" name="Default Changelist" comment="" />
+      <created>1550144679938</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1550144679938</updated>
+      <workItem from="1550144681318" duration="3020000" />
+      <workItem from="1555331071783" duration="22192000" />
+      <workItem from="1555505287352" duration="28031000" />
+      <workItem from="1555591574635" duration="60968000" />
+      <workItem from="1555982351616" duration="77671000" />
+      <workItem from="1556183066638" duration="16197000" />
+      <workItem from="1558321259513" duration="31717000" />
+      <workItem from="1559285224388" duration="1817000" />
+      <workItem from="1560652358978" duration="2998000" />
+      <workItem from="1560825472601" duration="23000" />
+      <workItem from="1560947087284" duration="1128000" />
+      <workItem from="1562314308167" duration="1239000" />
+      <workItem from="1562684214911" duration="6073000" />
+      <workItem from="1563699367136" duration="830000" />
+      <workItem from="1564121804129" duration="2214000" />
+      <workItem from="1564132395308" duration="612000" />
+      <workItem from="1564141436637" duration="7693000" />
+      <workItem from="1564405227967" duration="6855000" />
+      <workItem from="1566717653993" duration="26417000" />
+      <workItem from="1566920125865" duration="29206000" />
+      <workItem from="1567665083794" duration="143000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="327044000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20788912" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="0" weight="0.32936078" />
+      <window_info anchor="bottom" id="Statistic" order="1" sideWeight="0.5676972" weight="0.43698853" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Find" order="3" weight="0.32925472" />
+      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.58742005" weight="0.3192436" />
+      <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.5906183" weight="0.44382647" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="8" weight="0.32936078" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.40938166" side_tool="true" weight="0.41045606" />
+      <window_info anchor="bottom" id="Terminal" order="13" weight="0.32936078" />
+      <window_info anchor="bottom" id="Python Console" order="14" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.18390192" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32995737" />
+      <window_info anchor="right" id="Structure" order="5" weight="0.3192964" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20575693" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="0" weight="0.32936078" />
+      <window_info anchor="bottom" id="Statistic" order="1" sideWeight="0.5676972" weight="0.43698853" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Find" order="3" weight="0.32925472" />
+      <window_info active="true" anchor="bottom" id="Run" order="4" sideWeight="0.58742005" visible="true" weight="0.3637375" />
+      <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.5906183" weight="0.44382647" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="8" weight="0.32936078" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.40938166" side_tool="true" weight="0.41045606" />
+      <window_info anchor="bottom" id="Terminal" order="13" weight="0.32936078" />
+      <window_info anchor="bottom" id="Python Console" order="14" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.015991472" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32995737" />
+      <window_info anchor="right" id="Structure" order="5" weight="0.3192964" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/mahakil/Imahakil.py</url>
+          <line>90</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="y[0:768] " />
+        <watch expression="i" />
+        <watch expression="knear[0][5]" />
+        <watch expression="knear[0]" />
+        <watch expression="self" />
+        <watch expression="mark" />
+        <watch expression="k" />
+        <watch expression="resultList[0]" />
+        <watch expression="self" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/demostration/test.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demostration/generateGraph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1850">
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demostration/generateOneDimention.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1396">
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ImproveAdaBoost/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding>
+            <element signature="e#41#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mahakil/DataSetTool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mahakil/Distance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="32" lean-forward="true" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mahakil/Experiment_for_mahakil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="89" lean-forward="true" selection-start-line="19" selection-start-column="82" selection-end-line="19" selection-end-column="89" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resultGenerate/ConfusionMatrix.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mahakil/Smahakil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-604">
+          <caret line="128" column="67" lean-forward="true" selection-start-line="128" selection-start-column="67" selection-end-line="128" selection-end-column="67" />
+          <folding>
+            <element signature="e#126#139#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resultGenerate/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1386" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/random.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-660" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mahakil/Imahakil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="124" column="66" selection-start-line="124" selection-start-column="66" selection-end-line="124" selection-end-column="66" />
+          <folding>
+            <element signature="e#126#144#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mahakil/mahakil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1254">
+          <caret line="59" column="9" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
+          <folding>
+            <element signature="e#126#144#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OverSampleAlgorithm/adasyn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2530">
+          <caret line="117" selection-start-line="117" selection-end-line="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OverSampleAlgorithm/smote.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1584">
+          <caret line="74" column="48" selection-start-line="74" selection-start-column="48" selection-end-line="74" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resultGenerate/resultTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="2" column="58" selection-start-line="2" selection-start-column="58" selection-end-line="2" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resultGenerate/generate.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="716">
+          <caret line="170" selection-start-line="170" selection-end-line="170" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/kc1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="2097" column="75" selection-start-line="2097" selection-start-column="75" selection-end-line="2097" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OverSampleAlgorithm/BorderlineOverSamplling.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/kc2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="242" column="60" selection-start-line="242" selection-start-column="60" selection-end-line="242" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resultGenerate/MyResultGenerate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ImproveAdaBoost/Relation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/EBorderLogistic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="39" column="39" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Borderline.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/OrderMetrics.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NASADataSet/order">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/numpy/lib/npyio.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-215">
+          <caret line="804" column="34" selection-start-line="804" selection-start-column="34" selection-end-line="804" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/BestFeature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="489" lean-forward="true" selection-end-column="489" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/11">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="12" lean-forward="true" selection-end-line="38" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resultGenerate/resultGenerate2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="57" column="46" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/Evaluate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="33" column="44" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/logistic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="22" column="26" lean-forward="true" selection-start-line="18" selection-end-line="22" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/sklearn/ensemble/forest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="2023" column="11" lean-forward="true" selection-start-line="2023" selection-start-column="11" selection-end-line="2023" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/MetricsName.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NASADataSet/KC3.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resultGenerate/resultGenerate1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1978">
+          <caret line="1057" column="15" lean-forward="true" selection-start-line="1057" selection-start-column="15" selection-end-line="1057" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NASADataSet/CM1.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state>
+          <caret column="54" selection-start-column="34" selection-end-column="54" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NASADataSet/JM1.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NASADataSet/KC4.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state>
+          <caret column="247" selection-start-column="247" selection-end-column="247" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NASADataSet/MC1.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="96" selection-start-line="1" selection-start-column="96" selection-end-line="1" selection-end-column="96" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NASADataSet/MC2.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" selection-start-line="2" selection-end-line="3" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NASADataSet/MW1.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NASADataSet/PC1.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NASADataSet/PC2.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NASADataSet/PC3.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" selection-end-line="1" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NASADataSet/PC5.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" selection-start-line="8" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NASADataSet/PC4.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state>
+          <caret line="6" selection-start-line="6" selection-end-line="7" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NASADataSet/KC1.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="22">
+          <caret line="122" selection-start-line="122" selection-end-line="123" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/ADASYNLogistic.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/FeatureSelect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="30" column="20" lean-forward="true" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

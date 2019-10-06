@@ -1,0 +1,25 @@
+<project name="fastcheck" default="fastcheck.script">
+	<available file="../../../../bin/fastcheck" property="script.avail"/>
+	
+	<target name="fastcheck.script" unless="script.avail">
+		<ant dir="../../../.." target="script" inheritAll="false">
+			<property name="scriptname" 
+				value="fastcheck"/>
+			
+			<property name="mainclass" 
+				value="crystal.projects.fastcheck.Main"/>
+		</ant>
+	</target>
+
+	<target name="dist">
+		<delete file="fastcheck.tgz"/>
+		<tar destfile="fastcheck.tgz" compression="gzip">
+			<tarfileset dir=".." prefix="crystal/src/crystal/projects">
+				<include name="fastcheck/**"/>
+			</tarfileset>
+		</tar>
+	</target>
+
+</project>
+
+

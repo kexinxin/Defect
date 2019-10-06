@@ -1,0 +1,984 @@
+digraph codeviz {
+    splines=true
+    sep="+15,15"
+    overlap=scalexy
+
+    node [shape=Mrecord, fontsize=12]
+
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\bindings\java\src\main\native\jucx_common_def.h" [label = "openucxUCX\bindings\java\src\main\native\jucx_common_def.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\contrib\cray-ugni-mock\include\gni_pub.h" [label = "openucxUCX\contrib\cray-ugni-mock\include\gni_pub.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\contrib\cray-ugni-mock\include\pmi.h" [label = "openucxUCX\contrib\cray-ugni-mock\include\pmi.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\contrib\cray-ugni-mock\include\pmi2.h" [label = "openucxUCX\contrib\cray-ugni-mock\include\pmi2.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\tools\info\build_info.c" [label = "openucxUCX\src\tools\info\build_info.c"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\tools\info\proto_info.c" [label = "openucxUCX\src\tools\info\proto_info.c"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\tools\info\sys_info.c" [label = "openucxUCX\src\tools\info\sys_info.c"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\tools\info\tl_info.c" [label = "openucxUCX\src\tools\info\tl_info.c"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\tools\info\type_info.c" [label = "openucxUCX\src\tools\info\type_info.c"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\tools\info\ucx_info.c" [label = "openucxUCX\src\tools\info\ucx_info.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\tools\info\ucx_info.h" [label = "openucxUCX\src\tools\info\ucx_info.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\tools\perf\api\libperf.h" [label = "openucxUCX\src\tools\perf\api\libperf.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\tools\perf\cuda\cuda_alloc.c" [label = "openucxUCX\src\tools\perf\cuda\cuda_alloc.c"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\tools\perf\lib\libperf.c" [label = "openucxUCX\src\tools\perf\lib\libperf.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\tools\perf\lib\libperf_int.h" [label = "openucxUCX\src\tools\perf\lib\libperf_int.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\tools\perf\perftest.c" [label = "openucxUCX\src\tools\perf\perftest.c"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\tools\profile\read_profile.c" [label = "openucxUCX\src\tools\profile\read_profile.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucm\api\ucm.h" [label = "openucxUCX\src\ucm\api\ucm.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucm\bistro\bistro.c" [label = "openucxUCX\src\ucm\bistro\bistro.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucm\bistro\bistro.h" [label = "openucxUCX\src\ucm\bistro\bistro.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucm\bistro\bistro_aarch64.c" [label = "openucxUCX\src\ucm\bistro\bistro_aarch64.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucm\bistro\bistro_aarch64.h" [label = "openucxUCX\src\ucm\bistro\bistro_aarch64.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucm\bistro\bistro_int.h" [label = "openucxUCX\src\ucm\bistro\bistro_int.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucm\bistro\bistro_ppc64.c" [label = "openucxUCX\src\ucm\bistro\bistro_ppc64.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucm\bistro\bistro_ppc64.h" [label = "openucxUCX\src\ucm\bistro\bistro_ppc64.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucm\bistro\bistro_x86_64.c" [label = "openucxUCX\src\ucm\bistro\bistro_x86_64.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucm\bistro\bistro_x86_64.h" [label = "openucxUCX\src\ucm\bistro\bistro_x86_64.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucm\cuda\cudamem.c" [label = "openucxUCX\src\ucm\cuda\cudamem.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucm\cuda\cudamem.h" [label = "openucxUCX\src\ucm\cuda\cudamem.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucm\event\event.c" [label = "openucxUCX\src\ucm\event\event.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucm\event\event.h" [label = "openucxUCX\src\ucm\event\event.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucm\malloc\allocator.h" [label = "openucxUCX\src\ucm\malloc\allocator.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucm\malloc\malloc_hook.c" [label = "openucxUCX\src\ucm\malloc\malloc_hook.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucm\malloc\malloc_hook.h" [label = "openucxUCX\src\ucm\malloc\malloc_hook.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucm\mmap\install.c" [label = "openucxUCX\src\ucm\mmap\install.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucm\mmap\mmap.h" [label = "openucxUCX\src\ucm\mmap\mmap.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucm\ptmalloc286\malloc-2.8.6.h" [label = "openucxUCX\src\ucm\ptmalloc286\malloc-2.8.6.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucm\ptmalloc286\malloc.c" [label = "openucxUCX\src\ucm\ptmalloc286\malloc.c"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucm\rocm\rocmmem.c" [label = "openucxUCX\src\ucm\rocm\rocmmem.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucm\rocm\rocmmem.h" [label = "openucxUCX\src\ucm\rocm\rocmmem.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucm\util\log.c" [label = "openucxUCX\src\ucm\util\log.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucm\util\log.h" [label = "openucxUCX\src\ucm\util\log.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucm\util\reloc.c" [label = "openucxUCX\src\ucm\util\reloc.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucm\util\reloc.h" [label = "openucxUCX\src\ucm\util\reloc.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucm\util\replace.c" [label = "openucxUCX\src\ucm\util\replace.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucm\util\replace.h" [label = "openucxUCX\src\ucm\util\replace.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucm\util\sys.c" [label = "openucxUCX\src\ucm\util\sys.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucm\util\sys.h" [label = "openucxUCX\src\ucm\util\sys.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucp\api\ucp.h" [label = "openucxUCX\src\ucp\api\ucp.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucp\api\ucp_compat.h" [label = "openucxUCX\src\ucp\api\ucp_compat.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucp\api\ucp_def.h" [label = "openucxUCX\src\ucp\api\ucp_def.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucp\api\ucpx.h" [label = "openucxUCX\src\ucp\api\ucpx.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucp\core\ucp_am.c" [label = "openucxUCX\src\ucp\core\ucp_am.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucp\core\ucp_am.h" [label = "openucxUCX\src\ucp\core\ucp_am.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucp\core\ucp_context.c" [label = "openucxUCX\src\ucp\core\ucp_context.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucp\core\ucp_context.h" [label = "openucxUCX\src\ucp\core\ucp_context.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucp\core\ucp_ep.c" [label = "openucxUCX\src\ucp\core\ucp_ep.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucp\core\ucp_ep.h" [label = "openucxUCX\src\ucp\core\ucp_ep.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucp\core\ucp_listener.c" [label = "openucxUCX\src\ucp\core\ucp_listener.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucp\core\ucp_listener.h" [label = "openucxUCX\src\ucp\core\ucp_listener.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucp\core\ucp_mm.c" [label = "openucxUCX\src\ucp\core\ucp_mm.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucp\core\ucp_mm.h" [label = "openucxUCX\src\ucp\core\ucp_mm.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucp\core\ucp_proxy_ep.c" [label = "openucxUCX\src\ucp\core\ucp_proxy_ep.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucp\core\ucp_proxy_ep.h" [label = "openucxUCX\src\ucp\core\ucp_proxy_ep.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucp\core\ucp_request.c" [label = "openucxUCX\src\ucp\core\ucp_request.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucp\core\ucp_request.h" [label = "openucxUCX\src\ucp\core\ucp_request.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucp\core\ucp_resource.h" [label = "openucxUCX\src\ucp\core\ucp_resource.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucp\core\ucp_rkey.c" [label = "openucxUCX\src\ucp\core\ucp_rkey.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucp\core\ucp_thread.h" [label = "openucxUCX\src\ucp\core\ucp_thread.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucp\core\ucp_types.h" [label = "openucxUCX\src\ucp\core\ucp_types.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucp\core\ucp_worker.c" [label = "openucxUCX\src\ucp\core\ucp_worker.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucp\core\ucp_worker.h" [label = "openucxUCX\src\ucp\core\ucp_worker.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucp\dt\dt.c" [label = "openucxUCX\src\ucp\dt\dt.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucp\dt\dt.h" [label = "openucxUCX\src\ucp\dt\dt.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucp\dt\dt_contig.c" [label = "openucxUCX\src\ucp\dt\dt_contig.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucp\dt\dt_contig.h" [label = "openucxUCX\src\ucp\dt\dt_contig.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucp\dt\dt_generic.c" [label = "openucxUCX\src\ucp\dt\dt_generic.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucp\dt\dt_generic.h" [label = "openucxUCX\src\ucp\dt\dt_generic.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucp\dt\dt_iov.c" [label = "openucxUCX\src\ucp\dt\dt_iov.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucp\dt\dt_iov.h" [label = "openucxUCX\src\ucp\dt\dt_iov.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucp\proto\proto.h" [label = "openucxUCX\src\ucp\proto\proto.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucp\proto\proto_am.c" [label = "openucxUCX\src\ucp\proto\proto_am.c"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucp\rma\amo_basic.c" [label = "openucxUCX\src\ucp\rma\amo_basic.c"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucp\rma\amo_send.c" [label = "openucxUCX\src\ucp\rma\amo_send.c"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucp\rma\amo_sw.c" [label = "openucxUCX\src\ucp\rma\amo_sw.c"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucp\rma\flush.c" [label = "openucxUCX\src\ucp\rma\flush.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucp\rma\rma.h" [label = "openucxUCX\src\ucp\rma\rma.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucp\rma\rma_basic.c" [label = "openucxUCX\src\ucp\rma\rma_basic.c"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucp\rma\rma_send.c" [label = "openucxUCX\src\ucp\rma\rma_send.c"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucp\rma\rma_sw.c" [label = "openucxUCX\src\ucp\rma\rma_sw.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucp\stream\stream.h" [label = "openucxUCX\src\ucp\stream\stream.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucp\stream\stream_recv.c" [label = "openucxUCX\src\ucp\stream\stream_recv.c"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucp\stream\stream_send.c" [label = "openucxUCX\src\ucp\stream\stream_send.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucp\tag\eager.h" [label = "openucxUCX\src\ucp\tag\eager.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucp\tag\eager_rcv.c" [label = "openucxUCX\src\ucp\tag\eager_rcv.c"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucp\tag\eager_snd.c" [label = "openucxUCX\src\ucp\tag\eager_snd.c"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucp\tag\offload.c" [label = "openucxUCX\src\ucp\tag\offload.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucp\tag\offload.h" [label = "openucxUCX\src\ucp\tag\offload.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucp\tag\probe.c" [label = "openucxUCX\src\ucp\tag\probe.c"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucp\tag\rndv.c" [label = "openucxUCX\src\ucp\tag\rndv.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucp\tag\rndv.h" [label = "openucxUCX\src\ucp\tag\rndv.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucp\tag\tag_match.c" [label = "openucxUCX\src\ucp\tag\tag_match.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucp\tag\tag_match.h" [label = "openucxUCX\src\ucp\tag\tag_match.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucp\tag\tag_recv.c" [label = "openucxUCX\src\ucp\tag\tag_recv.c"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucp\tag\tag_send.c" [label = "openucxUCX\src\ucp\tag\tag_send.c"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucp\wireup\address.c" [label = "openucxUCX\src\ucp\wireup\address.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucp\wireup\address.h" [label = "openucxUCX\src\ucp\wireup\address.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucp\wireup\ep_match.c" [label = "openucxUCX\src\ucp\wireup\ep_match.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucp\wireup\ep_match.h" [label = "openucxUCX\src\ucp\wireup\ep_match.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucp\wireup\select.c" [label = "openucxUCX\src\ucp\wireup\select.c"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucp\wireup\signaling_ep.c" [label = "openucxUCX\src\ucp\wireup\signaling_ep.c"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucp\wireup\wireup.c" [label = "openucxUCX\src\ucp\wireup\wireup.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucp\wireup\wireup.h" [label = "openucxUCX\src\ucp\wireup\wireup.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucp\wireup\wireup_ep.c" [label = "openucxUCX\src\ucp\wireup\wireup_ep.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucp\wireup\wireup_ep.h" [label = "openucxUCX\src\ucp\wireup\wireup_ep.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucs\algorithm\crc.c" [label = "openucxUCX\src\ucs\algorithm\crc.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\algorithm\crc.h" [label = "openucxUCX\src\ucs\algorithm\crc.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucs\algorithm\qsort_r.c" [label = "openucxUCX\src\ucs\algorithm\qsort_r.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\algorithm\qsort_r.h" [label = "openucxUCX\src\ucs\algorithm\qsort_r.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\arch\aarch64\bitops.h" [label = "openucxUCX\src\ucs\arch\aarch64\bitops.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucs\arch\aarch64\cpu.c" [label = "openucxUCX\src\ucs\arch\aarch64\cpu.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\arch\aarch64\cpu.h" [label = "openucxUCX\src\ucs\arch\aarch64\cpu.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucs\arch\aarch64\global_opts.c" [label = "openucxUCX\src\ucs\arch\aarch64\global_opts.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\arch\aarch64\global_opts.h" [label = "openucxUCX\src\ucs\arch\aarch64\global_opts.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\arch\atomic.h" [label = "openucxUCX\src\ucs\arch\atomic.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\arch\bitops.h" [label = "openucxUCX\src\ucs\arch\bitops.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\arch\cpu.h" [label = "openucxUCX\src\ucs\arch\cpu.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\arch\generic\atomic.h" [label = "openucxUCX\src\ucs\arch\generic\atomic.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\arch\generic\cpu.h" [label = "openucxUCX\src\ucs\arch\generic\cpu.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\arch\global_opts.h" [label = "openucxUCX\src\ucs\arch\global_opts.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\arch\ppc64\bitops.h" [label = "openucxUCX\src\ucs\arch\ppc64\bitops.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\arch\ppc64\cpu.h" [label = "openucxUCX\src\ucs\arch\ppc64\cpu.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucs\arch\ppc64\global_opts.c" [label = "openucxUCX\src\ucs\arch\ppc64\global_opts.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\arch\ppc64\global_opts.h" [label = "openucxUCX\src\ucs\arch\ppc64\global_opts.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucs\arch\ppc64\timebase.c" [label = "openucxUCX\src\ucs\arch\ppc64\timebase.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\arch\x86_64\atomic.h" [label = "openucxUCX\src\ucs\arch\x86_64\atomic.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\arch\x86_64\bitops.h" [label = "openucxUCX\src\ucs\arch\x86_64\bitops.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucs\arch\x86_64\cpu.c" [label = "openucxUCX\src\ucs\arch\x86_64\cpu.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\arch\x86_64\cpu.h" [label = "openucxUCX\src\ucs\arch\x86_64\cpu.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucs\arch\x86_64\global_opts.c" [label = "openucxUCX\src\ucs\arch\x86_64\global_opts.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\arch\x86_64\global_opts.h" [label = "openucxUCX\src\ucs\arch\x86_64\global_opts.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucs\async\async.c" [label = "openucxUCX\src\ucs\async\async.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\async\async.h" [label = "openucxUCX\src\ucs\async\async.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\async\async_fwd.h" [label = "openucxUCX\src\ucs\async\async_fwd.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\async\async_int.h" [label = "openucxUCX\src\ucs\async\async_int.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucs\async\pipe.c" [label = "openucxUCX\src\ucs\async\pipe.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\async\pipe.h" [label = "openucxUCX\src\ucs\async\pipe.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucs\async\signal.c" [label = "openucxUCX\src\ucs\async\signal.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\async\signal.h" [label = "openucxUCX\src\ucs\async\signal.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucs\async\thread.c" [label = "openucxUCX\src\ucs\async\thread.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\async\thread.h" [label = "openucxUCX\src\ucs\async\thread.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucs\config\global_opts.c" [label = "openucxUCX\src\ucs\config\global_opts.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\config\global_opts.h" [label = "openucxUCX\src\ucs\config\global_opts.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucs\config\parser.c" [label = "openucxUCX\src\ucs\config\parser.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\config\parser.h" [label = "openucxUCX\src\ucs\config\parser.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\config\types.h" [label = "openucxUCX\src\ucs\config\types.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucs\config\ucm_opts.c" [label = "openucxUCX\src\ucs\config\ucm_opts.c"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucs\datastruct\arbiter.c" [label = "openucxUCX\src\ucs\datastruct\arbiter.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\datastruct\arbiter.h" [label = "openucxUCX\src\ucs\datastruct\arbiter.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucs\datastruct\callbackq.c" [label = "openucxUCX\src\ucs\datastruct\callbackq.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\datastruct\callbackq.h" [label = "openucxUCX\src\ucs\datastruct\callbackq.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucs\datastruct\frag_list.c" [label = "openucxUCX\src\ucs\datastruct\frag_list.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\datastruct\frag_list.h" [label = "openucxUCX\src\ucs\datastruct\frag_list.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\datastruct\khash.h" [label = "openucxUCX\src\ucs\datastruct\khash.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\datastruct\list.h" [label = "openucxUCX\src\ucs\datastruct\list.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\datastruct\list_types.h" [label = "openucxUCX\src\ucs\datastruct\list_types.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucs\datastruct\mpmc.c" [label = "openucxUCX\src\ucs\datastruct\mpmc.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\datastruct\mpmc.h" [label = "openucxUCX\src\ucs\datastruct\mpmc.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucs\datastruct\mpool.c" [label = "openucxUCX\src\ucs\datastruct\mpool.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\datastruct\mpool.h" [label = "openucxUCX\src\ucs\datastruct\mpool.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucs\datastruct\pgtable.c" [label = "openucxUCX\src\ucs\datastruct\pgtable.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\datastruct\pgtable.h" [label = "openucxUCX\src\ucs\datastruct\pgtable.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucs\datastruct\ptr_array.c" [label = "openucxUCX\src\ucs\datastruct\ptr_array.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\datastruct\ptr_array.h" [label = "openucxUCX\src\ucs\datastruct\ptr_array.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\datastruct\queue.h" [label = "openucxUCX\src\ucs\datastruct\queue.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\datastruct\queue_types.h" [label = "openucxUCX\src\ucs\datastruct\queue_types.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\datastruct\sglib.h" [label = "openucxUCX\src\ucs\datastruct\sglib.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\datastruct\sglib_wrapper.h" [label = "openucxUCX\src\ucs\datastruct\sglib_wrapper.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucs\datastruct\strided_alloc.c" [label = "openucxUCX\src\ucs\datastruct\strided_alloc.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\datastruct\strided_alloc.h" [label = "openucxUCX\src\ucs\datastruct\strided_alloc.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucs\debug\assert.c" [label = "openucxUCX\src\ucs\debug\assert.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\debug\assert.h" [label = "openucxUCX\src\ucs\debug\assert.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucs\debug\debug.c" [label = "openucxUCX\src\ucs\debug\debug.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\debug\debug.h" [label = "openucxUCX\src\ucs\debug\debug.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucs\debug\log.c" [label = "openucxUCX\src\ucs\debug\log.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\debug\log.h" [label = "openucxUCX\src\ucs\debug\log.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucs\debug\memtrack.c" [label = "openucxUCX\src\ucs\debug\memtrack.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\debug\memtrack.h" [label = "openucxUCX\src\ucs\debug\memtrack.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucs\memory\memory_type.c" [label = "openucxUCX\src\ucs\memory\memory_type.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\memory\memory_type.h" [label = "openucxUCX\src\ucs\memory\memory_type.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucs\memory\memtype_cache.c" [label = "openucxUCX\src\ucs\memory\memtype_cache.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\memory\memtype_cache.h" [label = "openucxUCX\src\ucs\memory\memtype_cache.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucs\memory\numa.c" [label = "openucxUCX\src\ucs\memory\numa.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\memory\numa.h" [label = "openucxUCX\src\ucs\memory\numa.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucs\memory\rcache.c" [label = "openucxUCX\src\ucs\memory\rcache.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\memory\rcache.h" [label = "openucxUCX\src\ucs\memory\rcache.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\memory\rcache_int.h" [label = "openucxUCX\src\ucs\memory\rcache_int.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucs\profile\profile.c" [label = "openucxUCX\src\ucs\profile\profile.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\profile\profile.h" [label = "openucxUCX\src\ucs\profile\profile.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\profile\profile_defs.h" [label = "openucxUCX\src\ucs\profile\profile_defs.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\profile\profile_off.h" [label = "openucxUCX\src\ucs\profile\profile_off.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\profile\profile_on.h" [label = "openucxUCX\src\ucs\profile\profile_on.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucs\stats\client_server.c" [label = "openucxUCX\src\ucs\stats\client_server.c"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucs\stats\libstats.c" [label = "openucxUCX\src\ucs\stats\libstats.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\stats\libstats.h" [label = "openucxUCX\src\ucs\stats\libstats.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucs\stats\serialization.c" [label = "openucxUCX\src\ucs\stats\serialization.c"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucs\stats\stats.c" [label = "openucxUCX\src\ucs\stats\stats.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\stats\stats.h" [label = "openucxUCX\src\ucs\stats\stats.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\stats\stats_fwd.h" [label = "openucxUCX\src\ucs\stats\stats_fwd.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucs\stats\stats_parser.c" [label = "openucxUCX\src\ucs\stats\stats_parser.c"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucs\stats\stats_reader.c" [label = "openucxUCX\src\ucs\stats\stats_reader.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\sys\checker.h" [label = "openucxUCX\src\ucs\sys\checker.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\sys\compiler.h" [label = "openucxUCX\src\ucs\sys\compiler.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\sys\compiler_def.h" [label = "openucxUCX\src\ucs\sys\compiler_def.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucs\sys\event_set.c" [label = "openucxUCX\src\ucs\sys\event_set.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\sys\event_set.h" [label = "openucxUCX\src\ucs\sys\event_set.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucs\sys\init.c" [label = "openucxUCX\src\ucs\sys\init.c"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucs\sys\math.c" [label = "openucxUCX\src\ucs\sys\math.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\sys\math.h" [label = "openucxUCX\src\ucs\sys\math.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucs\sys\module.c" [label = "openucxUCX\src\ucs\sys\module.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\sys\module.h" [label = "openucxUCX\src\ucs\sys\module.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\sys\preprocessor.h" [label = "openucxUCX\src\ucs\sys\preprocessor.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucs\sys\sock.c" [label = "openucxUCX\src\ucs\sys\sock.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\sys\sock.h" [label = "openucxUCX\src\ucs\sys\sock.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucs\sys\string.c" [label = "openucxUCX\src\ucs\sys\string.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\sys\string.h" [label = "openucxUCX\src\ucs\sys\string.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucs\sys\stubs.c" [label = "openucxUCX\src\ucs\sys\stubs.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\sys\stubs.h" [label = "openucxUCX\src\ucs\sys\stubs.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucs\sys\sys.c" [label = "openucxUCX\src\ucs\sys\sys.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\sys\sys.h" [label = "openucxUCX\src\ucs\sys\sys.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucs\time\time.c" [label = "openucxUCX\src\ucs\time\time.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\time\time.h" [label = "openucxUCX\src\ucs\time\time.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\time\time_def.h" [label = "openucxUCX\src\ucs\time\time_def.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucs\time\timer_wheel.c" [label = "openucxUCX\src\ucs\time\timer_wheel.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\time\timer_wheel.h" [label = "openucxUCX\src\ucs\time\timer_wheel.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucs\time\timerq.c" [label = "openucxUCX\src\ucs\time\timerq.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\time\timerq.h" [label = "openucxUCX\src\ucs\time\timerq.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucs\type\class.c" [label = "openucxUCX\src\ucs\type\class.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\type\class.h" [label = "openucxUCX\src\ucs\type\class.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\type\cpu_set.h" [label = "openucxUCX\src\ucs\type\cpu_set.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucs\type\init_once.c" [label = "openucxUCX\src\ucs\type\init_once.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\type\init_once.h" [label = "openucxUCX\src\ucs\type\init_once.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucs\type\spinlock.c" [label = "openucxUCX\src\ucs\type\spinlock.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\type\spinlock.h" [label = "openucxUCX\src\ucs\type\spinlock.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\ucs\type\status.c" [label = "openucxUCX\src\ucs\type\status.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\type\status.h" [label = "openucxUCX\src\ucs\type\status.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\ucs\type\thread_mode.h" [label = "openucxUCX\src\ucs\type\thread_mode.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\api\tl.h" [label = "openucxUCX\src\uct\api\tl.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\api\uct.h" [label = "openucxUCX\src\uct\api\uct.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\api\uct_def.h" [label = "openucxUCX\src\uct\api\uct_def.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\base\uct_cm.c" [label = "openucxUCX\src\uct\base\uct_cm.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\base\uct_cm.h" [label = "openucxUCX\src\uct\base\uct_cm.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\base\uct_component.c" [label = "openucxUCX\src\uct\base\uct_component.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\base\uct_component.h" [label = "openucxUCX\src\uct\base\uct_component.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\base\uct_iface.c" [label = "openucxUCX\src\uct\base\uct_iface.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\base\uct_iface.h" [label = "openucxUCX\src\uct\base\uct_iface.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\base\uct_log.h" [label = "openucxUCX\src\uct\base\uct_log.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\base\uct_md.c" [label = "openucxUCX\src\uct\base\uct_md.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\base\uct_md.h" [label = "openucxUCX\src\uct\base\uct_md.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\base\uct_mem.c" [label = "openucxUCX\src\uct\base\uct_mem.c"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\base\uct_worker.c" [label = "openucxUCX\src\uct\base\uct_worker.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\base\uct_worker.h" [label = "openucxUCX\src\uct\base\uct_worker.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\cuda\base\cuda_iface.h" [label = "openucxUCX\src\uct\cuda\base\cuda_iface.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\cuda\base\cuda_md.c" [label = "openucxUCX\src\uct\cuda\base\cuda_md.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\cuda\base\cuda_md.h" [label = "openucxUCX\src\uct\cuda\base\cuda_md.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\cuda\cuda_copy\cuda_copy_ep.c" [label = "openucxUCX\src\uct\cuda\cuda_copy\cuda_copy_ep.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\cuda\cuda_copy\cuda_copy_ep.h" [label = "openucxUCX\src\uct\cuda\cuda_copy\cuda_copy_ep.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\cuda\cuda_copy\cuda_copy_iface.c" [label = "openucxUCX\src\uct\cuda\cuda_copy\cuda_copy_iface.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\cuda\cuda_copy\cuda_copy_iface.h" [label = "openucxUCX\src\uct\cuda\cuda_copy\cuda_copy_iface.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\cuda\cuda_copy\cuda_copy_md.c" [label = "openucxUCX\src\uct\cuda\cuda_copy\cuda_copy_md.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\cuda\cuda_copy\cuda_copy_md.h" [label = "openucxUCX\src\uct\cuda\cuda_copy\cuda_copy_md.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\cuda\cuda_ipc\cuda_ipc_cache.c" [label = "openucxUCX\src\uct\cuda\cuda_ipc\cuda_ipc_cache.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\cuda\cuda_ipc\cuda_ipc_cache.h" [label = "openucxUCX\src\uct\cuda\cuda_ipc\cuda_ipc_cache.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\cuda\cuda_ipc\cuda_ipc_ep.c" [label = "openucxUCX\src\uct\cuda\cuda_ipc\cuda_ipc_ep.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\cuda\cuda_ipc\cuda_ipc_ep.h" [label = "openucxUCX\src\uct\cuda\cuda_ipc\cuda_ipc_ep.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\cuda\cuda_ipc\cuda_ipc_iface.c" [label = "openucxUCX\src\uct\cuda\cuda_ipc\cuda_ipc_iface.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\cuda\cuda_ipc\cuda_ipc_iface.h" [label = "openucxUCX\src\uct\cuda\cuda_ipc\cuda_ipc_iface.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\cuda\cuda_ipc\cuda_ipc_md.c" [label = "openucxUCX\src\uct\cuda\cuda_ipc\cuda_ipc_md.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\cuda\cuda_ipc\cuda_ipc_md.h" [label = "openucxUCX\src\uct\cuda\cuda_ipc\cuda_ipc_md.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\cuda\gdr_copy\gdr_copy_ep.c" [label = "openucxUCX\src\uct\cuda\gdr_copy\gdr_copy_ep.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\cuda\gdr_copy\gdr_copy_ep.h" [label = "openucxUCX\src\uct\cuda\gdr_copy\gdr_copy_ep.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\cuda\gdr_copy\gdr_copy_iface.c" [label = "openucxUCX\src\uct\cuda\gdr_copy\gdr_copy_iface.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\cuda\gdr_copy\gdr_copy_iface.h" [label = "openucxUCX\src\uct\cuda\gdr_copy\gdr_copy_iface.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\cuda\gdr_copy\gdr_copy_md.c" [label = "openucxUCX\src\uct\cuda\gdr_copy\gdr_copy_md.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\cuda\gdr_copy\gdr_copy_md.h" [label = "openucxUCX\src\uct\cuda\gdr_copy\gdr_copy_md.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\ib\base\ib_device.c" [label = "openucxUCX\src\uct\ib\base\ib_device.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\ib\base\ib_device.h" [label = "openucxUCX\src\uct\ib\base\ib_device.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\ib\base\ib_iface.c" [label = "openucxUCX\src\uct\ib\base\ib_iface.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\ib\base\ib_iface.h" [label = "openucxUCX\src\uct\ib\base\ib_iface.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\ib\base\ib_log.c" [label = "openucxUCX\src\uct\ib\base\ib_log.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\ib\base\ib_log.h" [label = "openucxUCX\src\uct\ib\base\ib_log.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\ib\base\ib_md.c" [label = "openucxUCX\src\uct\ib\base\ib_md.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\ib\base\ib_md.h" [label = "openucxUCX\src\uct\ib\base\ib_md.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\ib\base\ib_verbs.h" [label = "openucxUCX\src\uct\ib\base\ib_verbs.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\ib\cm\cm.h" [label = "openucxUCX\src\uct\ib\cm\cm.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\ib\cm\cm_ep.c" [label = "openucxUCX\src\uct\ib\cm\cm_ep.c"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\ib\cm\cm_iface.c" [label = "openucxUCX\src\uct\ib\cm\cm_iface.c"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\ib\dc\dc_mlx5.c" [label = "openucxUCX\src\uct\ib\dc\dc_mlx5.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\ib\dc\dc_mlx5.h" [label = "openucxUCX\src\uct\ib\dc\dc_mlx5.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\ib\dc\dc_mlx5_ep.c" [label = "openucxUCX\src\uct\ib\dc\dc_mlx5_ep.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\ib\dc\dc_mlx5_ep.h" [label = "openucxUCX\src\uct\ib\dc\dc_mlx5_ep.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\ib\mlx5\dv\ib_mlx5_dv.c" [label = "openucxUCX\src\uct\ib\mlx5\dv\ib_mlx5_dv.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\ib\mlx5\dv\ib_mlx5_dv.h" [label = "openucxUCX\src\uct\ib\mlx5\dv\ib_mlx5_dv.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\ib\mlx5\dv\ib_mlx5_ifc.h" [label = "openucxUCX\src\uct\ib\mlx5\dv\ib_mlx5_ifc.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\ib\mlx5\dv\ib_mlx5dv_md.c" [label = "openucxUCX\src\uct\ib\mlx5\dv\ib_mlx5dv_md.c"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\ib\mlx5\exp\ib_exp.c" [label = "openucxUCX\src\uct\ib\mlx5\exp\ib_exp.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\ib\mlx5\exp\ib_exp.h" [label = "openucxUCX\src\uct\ib\mlx5\exp\ib_exp.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\ib\mlx5\exp\ib_exp_md.c" [label = "openucxUCX\src\uct\ib\mlx5\exp\ib_exp_md.c"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\ib\mlx5\exp\ib_mlx5_hw.c" [label = "openucxUCX\src\uct\ib\mlx5\exp\ib_mlx5_hw.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\ib\mlx5\exp\ib_mlx5_hw.h" [label = "openucxUCX\src\uct\ib\mlx5\exp\ib_mlx5_hw.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\ib\mlx5\ib_mlx5.c" [label = "openucxUCX\src\uct\ib\mlx5\ib_mlx5.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\ib\mlx5\ib_mlx5.h" [label = "openucxUCX\src\uct\ib\mlx5\ib_mlx5.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\ib\mlx5\ib_mlx5_log.c" [label = "openucxUCX\src\uct\ib\mlx5\ib_mlx5_log.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\ib\mlx5\ib_mlx5_log.h" [label = "openucxUCX\src\uct\ib\mlx5\ib_mlx5_log.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\ib\rc\accel\rc_mlx5.h" [label = "openucxUCX\src\uct\ib\rc\accel\rc_mlx5.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\ib\rc\accel\rc_mlx5_common.c" [label = "openucxUCX\src\uct\ib\rc\accel\rc_mlx5_common.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\ib\rc\accel\rc_mlx5_common.h" [label = "openucxUCX\src\uct\ib\rc\accel\rc_mlx5_common.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\ib\rc\accel\rc_mlx5_ep.c" [label = "openucxUCX\src\uct\ib\rc\accel\rc_mlx5_ep.c"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\ib\rc\accel\rc_mlx5_iface.c" [label = "openucxUCX\src\uct\ib\rc\accel\rc_mlx5_iface.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\ib\rc\base\rc_def.h" [label = "openucxUCX\src\uct\ib\rc\base\rc_def.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\ib\rc\base\rc_ep.c" [label = "openucxUCX\src\uct\ib\rc\base\rc_ep.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\ib\rc\base\rc_ep.h" [label = "openucxUCX\src\uct\ib\rc\base\rc_ep.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\ib\rc\base\rc_iface.c" [label = "openucxUCX\src\uct\ib\rc\base\rc_iface.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\ib\rc\base\rc_iface.h" [label = "openucxUCX\src\uct\ib\rc\base\rc_iface.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\ib\rc\verbs\rc_verbs.h" [label = "openucxUCX\src\uct\ib\rc\verbs\rc_verbs.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\ib\rc\verbs\rc_verbs_ep.c" [label = "openucxUCX\src\uct\ib\rc\verbs\rc_verbs_ep.c"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\ib\rc\verbs\rc_verbs_iface.c" [label = "openucxUCX\src\uct\ib\rc\verbs\rc_verbs_iface.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\ib\rc\verbs\rc_verbs_impl.h" [label = "openucxUCX\src\uct\ib\rc\verbs\rc_verbs_impl.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\ib\rdmacm\rdmacm_cm.c" [label = "openucxUCX\src\uct\ib\rdmacm\rdmacm_cm.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\ib\rdmacm\rdmacm_cm.h" [label = "openucxUCX\src\uct\ib\rdmacm\rdmacm_cm.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\ib\rdmacm\rdmacm_cm_ep.c" [label = "openucxUCX\src\uct\ib\rdmacm\rdmacm_cm_ep.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\ib\rdmacm\rdmacm_cm_ep.h" [label = "openucxUCX\src\uct\ib\rdmacm\rdmacm_cm_ep.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\ib\rdmacm\rdmacm_def.h" [label = "openucxUCX\src\uct\ib\rdmacm\rdmacm_def.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\ib\rdmacm\rdmacm_ep.c" [label = "openucxUCX\src\uct\ib\rdmacm\rdmacm_ep.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\ib\rdmacm\rdmacm_ep.h" [label = "openucxUCX\src\uct\ib\rdmacm\rdmacm_ep.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\ib\rdmacm\rdmacm_iface.c" [label = "openucxUCX\src\uct\ib\rdmacm\rdmacm_iface.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\ib\rdmacm\rdmacm_iface.h" [label = "openucxUCX\src\uct\ib\rdmacm\rdmacm_iface.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\ib\rdmacm\rdmacm_listener.c" [label = "openucxUCX\src\uct\ib\rdmacm\rdmacm_listener.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\ib\rdmacm\rdmacm_listener.h" [label = "openucxUCX\src\uct\ib\rdmacm\rdmacm_listener.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\ib\rdmacm\rdmacm_md.c" [label = "openucxUCX\src\uct\ib\rdmacm\rdmacm_md.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\ib\rdmacm\rdmacm_md.h" [label = "openucxUCX\src\uct\ib\rdmacm\rdmacm_md.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\ib\ud\accel\ud_mlx5.c" [label = "openucxUCX\src\uct\ib\ud\accel\ud_mlx5.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\ib\ud\accel\ud_mlx5.h" [label = "openucxUCX\src\uct\ib\ud\accel\ud_mlx5.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\ib\ud\accel\ud_mlx5_common.c" [label = "openucxUCX\src\uct\ib\ud\accel\ud_mlx5_common.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\ib\ud\accel\ud_mlx5_common.h" [label = "openucxUCX\src\uct\ib\ud\accel\ud_mlx5_common.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\ib\ud\base\ud_def.h" [label = "openucxUCX\src\uct\ib\ud\base\ud_def.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\ib\ud\base\ud_ep.c" [label = "openucxUCX\src\uct\ib\ud\base\ud_ep.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\ib\ud\base\ud_ep.h" [label = "openucxUCX\src\uct\ib\ud\base\ud_ep.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\ib\ud\base\ud_iface.c" [label = "openucxUCX\src\uct\ib\ud\base\ud_iface.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\ib\ud\base\ud_iface.h" [label = "openucxUCX\src\uct\ib\ud\base\ud_iface.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\ib\ud\base\ud_iface_common.c" [label = "openucxUCX\src\uct\ib\ud\base\ud_iface_common.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\ib\ud\base\ud_iface_common.h" [label = "openucxUCX\src\uct\ib\ud\base\ud_iface_common.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\ib\ud\base\ud_inl.h" [label = "openucxUCX\src\uct\ib\ud\base\ud_inl.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\ib\ud\base\ud_log.c" [label = "openucxUCX\src\uct\ib\ud\base\ud_log.c"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\ib\ud\verbs\ud_verbs.c" [label = "openucxUCX\src\uct\ib\ud\verbs\ud_verbs.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\ib\ud\verbs\ud_verbs.h" [label = "openucxUCX\src\uct\ib\ud\verbs\ud_verbs.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\rocm\base\rocm_base.c" [label = "openucxUCX\src\uct\rocm\base\rocm_base.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\rocm\base\rocm_base.h" [label = "openucxUCX\src\uct\rocm\base\rocm_base.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\rocm\copy\rocm_copy_ep.c" [label = "openucxUCX\src\uct\rocm\copy\rocm_copy_ep.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\rocm\copy\rocm_copy_ep.h" [label = "openucxUCX\src\uct\rocm\copy\rocm_copy_ep.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\rocm\copy\rocm_copy_iface.c" [label = "openucxUCX\src\uct\rocm\copy\rocm_copy_iface.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\rocm\copy\rocm_copy_iface.h" [label = "openucxUCX\src\uct\rocm\copy\rocm_copy_iface.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\rocm\copy\rocm_copy_md.c" [label = "openucxUCX\src\uct\rocm\copy\rocm_copy_md.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\rocm\copy\rocm_copy_md.h" [label = "openucxUCX\src\uct\rocm\copy\rocm_copy_md.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\rocm\gdr\rocm_gdr_ep.c" [label = "openucxUCX\src\uct\rocm\gdr\rocm_gdr_ep.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\rocm\gdr\rocm_gdr_ep.h" [label = "openucxUCX\src\uct\rocm\gdr\rocm_gdr_ep.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\rocm\gdr\rocm_gdr_iface.c" [label = "openucxUCX\src\uct\rocm\gdr\rocm_gdr_iface.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\rocm\gdr\rocm_gdr_iface.h" [label = "openucxUCX\src\uct\rocm\gdr\rocm_gdr_iface.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\rocm\gdr\rocm_gdr_md.c" [label = "openucxUCX\src\uct\rocm\gdr\rocm_gdr_md.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\rocm\gdr\rocm_gdr_md.h" [label = "openucxUCX\src\uct\rocm\gdr\rocm_gdr_md.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\rocm\ipc\rocm_ipc_cache.c" [label = "openucxUCX\src\uct\rocm\ipc\rocm_ipc_cache.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\rocm\ipc\rocm_ipc_cache.h" [label = "openucxUCX\src\uct\rocm\ipc\rocm_ipc_cache.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\rocm\ipc\rocm_ipc_ep.c" [label = "openucxUCX\src\uct\rocm\ipc\rocm_ipc_ep.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\rocm\ipc\rocm_ipc_ep.h" [label = "openucxUCX\src\uct\rocm\ipc\rocm_ipc_ep.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\rocm\ipc\rocm_ipc_iface.c" [label = "openucxUCX\src\uct\rocm\ipc\rocm_ipc_iface.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\rocm\ipc\rocm_ipc_iface.h" [label = "openucxUCX\src\uct\rocm\ipc\rocm_ipc_iface.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\rocm\ipc\rocm_ipc_md.c" [label = "openucxUCX\src\uct\rocm\ipc\rocm_ipc_md.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\rocm\ipc\rocm_ipc_md.h" [label = "openucxUCX\src\uct\rocm\ipc\rocm_ipc_md.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\sm\base\sm_ep.c" [label = "openucxUCX\src\uct\sm\base\sm_ep.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\sm\base\sm_ep.h" [label = "openucxUCX\src\uct\sm\base\sm_ep.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\sm\base\sm_iface.c" [label = "openucxUCX\src\uct\sm\base\sm_iface.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\sm\base\sm_iface.h" [label = "openucxUCX\src\uct\sm\base\sm_iface.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\sm\cma\cma_ep.c" [label = "openucxUCX\src\uct\sm\cma\cma_ep.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\sm\cma\cma_ep.h" [label = "openucxUCX\src\uct\sm\cma\cma_ep.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\sm\cma\cma_iface.c" [label = "openucxUCX\src\uct\sm\cma\cma_iface.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\sm\cma\cma_iface.h" [label = "openucxUCX\src\uct\sm\cma\cma_iface.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\sm\cma\cma_md.c" [label = "openucxUCX\src\uct\sm\cma\cma_md.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\sm\cma\cma_md.h" [label = "openucxUCX\src\uct\sm\cma\cma_md.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\sm\knem\knem_ep.c" [label = "openucxUCX\src\uct\sm\knem\knem_ep.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\sm\knem\knem_ep.h" [label = "openucxUCX\src\uct\sm\knem\knem_ep.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\sm\knem\knem_iface.c" [label = "openucxUCX\src\uct\sm\knem\knem_iface.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\sm\knem\knem_iface.h" [label = "openucxUCX\src\uct\sm\knem\knem_iface.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\sm\knem\knem_md.c" [label = "openucxUCX\src\uct\sm\knem\knem_md.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\sm\knem\knem_md.h" [label = "openucxUCX\src\uct\sm\knem\knem_md.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\sm\mm\base\mm_def.h" [label = "openucxUCX\src\uct\sm\mm\base\mm_def.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\sm\mm\base\mm_ep.c" [label = "openucxUCX\src\uct\sm\mm\base\mm_ep.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\sm\mm\base\mm_ep.h" [label = "openucxUCX\src\uct\sm\mm\base\mm_ep.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\sm\mm\base\mm_iface.c" [label = "openucxUCX\src\uct\sm\mm\base\mm_iface.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\sm\mm\base\mm_iface.h" [label = "openucxUCX\src\uct\sm\mm\base\mm_iface.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\sm\mm\base\mm_md.c" [label = "openucxUCX\src\uct\sm\mm\base\mm_md.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\sm\mm\base\mm_md.h" [label = "openucxUCX\src\uct\sm\mm\base\mm_md.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\sm\mm\posix\mm_posix.c" [label = "openucxUCX\src\uct\sm\mm\posix\mm_posix.c"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\sm\mm\sysv\mm_sysv.c" [label = "openucxUCX\src\uct\sm\mm\sysv\mm_sysv.c"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\sm\mm\xpmem\mm_xpmem.c" [label = "openucxUCX\src\uct\sm\mm\xpmem\mm_xpmem.c"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\sm\self\self.c" [label = "openucxUCX\src\uct\sm\self\self.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\sm\self\self.h" [label = "openucxUCX\src\uct\sm\self\self.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\tcp\sockcm\sockcm_def.h" [label = "openucxUCX\src\uct\tcp\sockcm\sockcm_def.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\tcp\sockcm\sockcm_ep.c" [label = "openucxUCX\src\uct\tcp\sockcm\sockcm_ep.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\tcp\sockcm\sockcm_ep.h" [label = "openucxUCX\src\uct\tcp\sockcm\sockcm_ep.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\tcp\sockcm\sockcm_iface.c" [label = "openucxUCX\src\uct\tcp\sockcm\sockcm_iface.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\tcp\sockcm\sockcm_iface.h" [label = "openucxUCX\src\uct\tcp\sockcm\sockcm_iface.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\tcp\sockcm\sockcm_md.c" [label = "openucxUCX\src\uct\tcp\sockcm\sockcm_md.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\tcp\sockcm\sockcm_md.h" [label = "openucxUCX\src\uct\tcp\sockcm\sockcm_md.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\tcp\tcp.h" [label = "openucxUCX\src\uct\tcp\tcp.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\tcp\tcp_cm.c" [label = "openucxUCX\src\uct\tcp\tcp_cm.c"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\tcp\tcp_ep.c" [label = "openucxUCX\src\uct\tcp\tcp_ep.c"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\tcp\tcp_iface.c" [label = "openucxUCX\src\uct\tcp\tcp_iface.c"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\tcp\tcp_md.c" [label = "openucxUCX\src\uct\tcp\tcp_md.c"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\tcp\tcp_net.c" [label = "openucxUCX\src\uct\tcp\tcp_net.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\ugni\base\ugni_def.h" [label = "openucxUCX\src\uct\ugni\base\ugni_def.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\ugni\base\ugni_device.c" [label = "openucxUCX\src\uct\ugni\base\ugni_device.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\ugni\base\ugni_device.h" [label = "openucxUCX\src\uct\ugni\base\ugni_device.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\ugni\base\ugni_ep.c" [label = "openucxUCX\src\uct\ugni\base\ugni_ep.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\ugni\base\ugni_ep.h" [label = "openucxUCX\src\uct\ugni\base\ugni_ep.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\ugni\base\ugni_iface.c" [label = "openucxUCX\src\uct\ugni\base\ugni_iface.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\ugni\base\ugni_iface.h" [label = "openucxUCX\src\uct\ugni\base\ugni_iface.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\ugni\base\ugni_md.c" [label = "openucxUCX\src\uct\ugni\base\ugni_md.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\ugni\base\ugni_md.h" [label = "openucxUCX\src\uct\ugni\base\ugni_md.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\ugni\base\ugni_types.h" [label = "openucxUCX\src\uct\ugni\base\ugni_types.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\ugni\rdma\ugni_rdma_ep.c" [label = "openucxUCX\src\uct\ugni\rdma\ugni_rdma_ep.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\ugni\rdma\ugni_rdma_ep.h" [label = "openucxUCX\src\uct\ugni\rdma\ugni_rdma_ep.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\ugni\rdma\ugni_rdma_iface.c" [label = "openucxUCX\src\uct\ugni\rdma\ugni_rdma_iface.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\ugni\rdma\ugni_rdma_iface.h" [label = "openucxUCX\src\uct\ugni\rdma\ugni_rdma_iface.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\ugni\smsg\ugni_smsg_ep.c" [label = "openucxUCX\src\uct\ugni\smsg\ugni_smsg_ep.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\ugni\smsg\ugni_smsg_ep.h" [label = "openucxUCX\src\uct\ugni\smsg\ugni_smsg_ep.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\ugni\smsg\ugni_smsg_iface.c" [label = "openucxUCX\src\uct\ugni\smsg\ugni_smsg_iface.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\ugni\smsg\ugni_smsg_iface.h" [label = "openucxUCX\src\uct\ugni\smsg\ugni_smsg_iface.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\ugni\udt\ugni_udt_ep.c" [label = "openucxUCX\src\uct\ugni\udt\ugni_udt_ep.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\ugni\udt\ugni_udt_ep.h" [label = "openucxUCX\src\uct\ugni\udt\ugni_udt_ep.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\src\uct\ugni\udt\ugni_udt_iface.c" [label = "openucxUCX\src\uct\ugni\udt\ugni_udt_iface.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\src\uct\ugni\udt\ugni_udt_iface.h" [label = "openucxUCX\src\uct\ugni\udt\ugni_udt_iface.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\test\apps\sockaddr\sa_base.h" [label = "openucxUCX\test\apps\sockaddr\sa_base.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\test\apps\sockaddr\sa_tcp.h" [label = "openucxUCX\test\apps\sockaddr\sa_tcp.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\test\apps\sockaddr\sa_util.h" [label = "openucxUCX\test\apps\sockaddr\sa_util.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\test\apps\test_dlopen_cfg_print.c" [label = "openucxUCX\test\apps\test_dlopen_cfg_print.c"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\test\apps\test_link_map.c" [label = "openucxUCX\test\apps\test_link_map.c"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\test\apps\test_tcmalloc.c" [label = "openucxUCX\test\apps\test_tcmalloc.c"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\test\apps\test_ucp_dlopen.c" [label = "openucxUCX\test\apps\test_ucp_dlopen.c"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\test\apps\test_ucs_dlopen.c" [label = "openucxUCX\test\apps\test_ucs_dlopen.c"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\test\examples\ucp_client_server.c" [label = "openucxUCX\test\examples\ucp_client_server.c"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\test\examples\ucp_hello_world.c" [label = "openucxUCX\test\examples\ucp_hello_world.c"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\test\examples\uct_hello_world.c" [label = "openucxUCX\test\examples\uct_hello_world.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\test\examples\ucx_hello_world.h" [label = "openucxUCX\test\examples\ucx_hello_world.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\test\examples\ucx_profiling.c" [label = "openucxUCX\test\examples\ucx_profiling.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\test\gtest\common\gtest.h" [label = "openucxUCX\test\gtest\common\gtest.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\test\gtest\common\tap.h" [label = "openucxUCX\test\gtest\common\tap.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\test\gtest\common\test.h" [label = "openucxUCX\test\gtest\common\test.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\test\gtest\common\test_helpers.h" [label = "openucxUCX\test\gtest\common\test_helpers.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\test\gtest\common\test_perf.h" [label = "openucxUCX\test\gtest\common\test_perf.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\test\gtest\ucm\test_dlopen\dlopen_test_do_load.c" [label = "openucxUCX\test\gtest\ucm\test_dlopen\dlopen_test_do_load.c"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\test\gtest\ucm\test_dlopen\dlopen_test_do_mmap.c" [label = "openucxUCX\test\gtest\ucm\test_dlopen\dlopen_test_do_mmap.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\test\gtest\ucp\test_ucp_atomic.h" [label = "openucxUCX\test\gtest\ucp\test_ucp_atomic.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\test\gtest\ucp\test_ucp_memheap.h" [label = "openucxUCX\test\gtest\ucp\test_ucp_memheap.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\test\gtest\ucp\test_ucp_tag.h" [label = "openucxUCX\test\gtest\ucp\test_ucp_tag.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\test\gtest\ucp\ucp_datatype.h" [label = "openucxUCX\test\gtest\ucp\ucp_datatype.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\test\gtest\ucp\ucp_test.h" [label = "openucxUCX\test\gtest\ucp\ucp_test.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\test\gtest\ucs\test_module\test_module.c" [label = "openucxUCX\test\gtest\ucs\test_module\test_module.c"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\test\gtest\uct\ib\test_ib.h" [label = "openucxUCX\test\gtest\uct\ib\test_ib.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\test\gtest\uct\ib\test_rc.h" [label = "openucxUCX\test\gtest\uct\ib\test_rc.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\test\gtest\uct\ib\ud_base.h" [label = "openucxUCX\test\gtest\uct\ib\ud_base.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\test\gtest\uct\test_amo.h" [label = "openucxUCX\test\gtest\uct\test_amo.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\test\gtest\uct\test_md.h" [label = "openucxUCX\test\gtest\uct\test_md.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\test\gtest\uct\test_p2p_mix.h" [label = "openucxUCX\test\gtest\uct\test_p2p_mix.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\test\gtest\uct\test_p2p_rma.h" [label = "openucxUCX\test\gtest\uct\test_p2p_rma.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\test\gtest\uct\uct_p2p_test.h" [label = "openucxUCX\test\gtest\uct\uct_p2p_test.h"]
+    node [fillcolor="#ccccff", style=filled] "openucxUCX\test\gtest\uct\uct_test.h" [label = "openucxUCX\test\gtest\uct\uct_test.h"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\test\mpi\shmem_pingpong.c" [label = "openucxUCX\test\mpi\shmem_pingpong.c"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\test\mpi\test_memhooks.c" [label = "openucxUCX\test\mpi\test_memhooks.c"]
+    node [fillcolor="#ff9999", style=filled] "openucxUCX\test\mpi\test_memhooks_lib.c" [label = "openucxUCX\test\mpi\test_memhooks_lib.c"]
+
+    "openucxUCX\contrib\cray-ugni-mock\include\pmi2.h" -> "openucxUCX\contrib\cray-ugni-mock\include\pmi.h"
+    "openucxUCX\src\tools\info\build_info.c" -> "openucxUCX\src\tools\info\ucx_info.h"
+    "openucxUCX\src\tools\info\proto_info.c" -> "openucxUCX\src\tools\info\ucx_info.h"
+    "openucxUCX\src\tools\info\proto_info.c" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\src\tools\info\sys_info.c" -> "openucxUCX\src\tools\info\ucx_info.h"
+    "openucxUCX\src\tools\info\sys_info.c" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\src\tools\info\tl_info.c" -> "openucxUCX\src\tools\info\ucx_info.h"
+    "openucxUCX\src\tools\info\tl_info.c" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\src\tools\info\type_info.c" -> "openucxUCX\src\tools\info\ucx_info.h"
+    "openucxUCX\src\tools\info\ucx_info.c" -> "openucxUCX\src\tools\info\ucx_info.h"
+    "openucxUCX\src\tools\info\ucx_info.c" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\src\tools\perf\lib\libperf.c" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\src\tools\perf\perftest.c" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\src\tools\profile\read_profile.c" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\src\tools\profile\read_profile.c" -> "openucxUCX\src\ucs\debug\assert.h"
+    "openucxUCX\src\tools\profile\read_profile.c" -> "openucxUCX\src\ucs\debug\assert.h"
+    "openucxUCX\src\ucm\bistro\bistro.h" -> "openucxUCX\src\ucm\bistro\bistro_ppc64.h"
+    "openucxUCX\src\ucm\bistro\bistro.h" -> "openucxUCX\src\ucm\bistro\bistro_aarch64.h"
+    "openucxUCX\src\ucm\bistro\bistro.h" -> "openucxUCX\src\ucm\bistro\bistro_x86_64.h"
+    "openucxUCX\src\ucm\bistro\bistro_aarch64.c" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\src\ucm\bistro\bistro_int.h" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\src\ucm\bistro\bistro_ppc64.c" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\src\ucm\bistro\bistro_x86_64.c" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\src\ucm\event\event.c" -> "openucxUCX\src\ucm\event\event.h"
+    "openucxUCX\src\ucm\event\event.c" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\src\ucm\malloc\malloc_hook.c" -> "openucxUCX\src\ucm\malloc\malloc_hook.h"
+    "openucxUCX\src\ucm\malloc\malloc_hook.c" -> "openucxUCX\src\ucm\malloc\allocator.h"
+    "openucxUCX\src\ucm\malloc\malloc_hook.c" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\src\ucm\mmap\install.c" -> "openucxUCX\src\ucm\mmap\mmap.h"
+    "openucxUCX\src\ucm\ptmalloc286\malloc.c" -> "openucxUCX\src\ucs\debug\assert.h"
+    "openucxUCX\src\ucm\ptmalloc286\malloc.c" -> "openucxUCX\src\ucs\time\time.h"
+    "openucxUCX\src\ucm\ptmalloc286\malloc.c" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\src\ucm\ptmalloc286\malloc.c" -> "openucxUCX\src\ucp\core\ucp_thread.h"
+    "openucxUCX\src\ucm\rocm\rocmmem.c" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\src\ucm\util\log.c" -> "openucxUCX\src\ucm\util\log.h"
+    "openucxUCX\src\ucm\util\log.c" -> "openucxUCX\src\ucm\util\sys.h"
+    "openucxUCX\src\ucm\util\log.c" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\src\ucm\util\reloc.c" -> "openucxUCX\src\ucm\util\reloc.h"
+    "openucxUCX\src\ucm\util\reloc.c" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\src\ucm\util\sys.c" -> "openucxUCX\src\ucm\util\sys.h"
+    "openucxUCX\src\ucm\util\sys.c" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\src\ucp\core\ucp_am.c" -> "openucxUCX\src\ucp\core\ucp_am.h"
+    "openucxUCX\src\ucp\core\ucp_am.h" -> "openucxUCX\src\ucp\core\ucp_ep.h"
+    "openucxUCX\src\ucp\core\ucp_context.c" -> "openucxUCX\src\ucp\core\ucp_context.h"
+    "openucxUCX\src\ucp\core\ucp_context.c" -> "openucxUCX\src\ucp\core\ucp_request.h"
+    "openucxUCX\src\ucp\core\ucp_context.c" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\src\ucp\core\ucp_context.h" -> "openucxUCX\src\ucp\core\ucp_types.h"
+    "openucxUCX\src\ucp\core\ucp_context.h" -> "openucxUCX\src\ucp\core\ucp_thread.h"
+    "openucxUCX\src\ucp\core\ucp_ep.c" -> "openucxUCX\src\ucp\core\ucp_ep.h"
+    "openucxUCX\src\ucp\core\ucp_ep.c" -> "openucxUCX\src\ucp\core\ucp_worker.h"
+    "openucxUCX\src\ucp\core\ucp_ep.c" -> "openucxUCX\src\ucp\core\ucp_am.h"
+    "openucxUCX\src\ucp\core\ucp_ep.c" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\src\ucp\core\ucp_ep.h" -> "openucxUCX\src\ucp\core\ucp_types.h"
+    "openucxUCX\src\ucp\core\ucp_listener.c" -> "openucxUCX\src\ucp\core\ucp_listener.h"
+    "openucxUCX\src\ucp\core\ucp_listener.h" -> "openucxUCX\src\ucp\core\ucp_worker.h"
+    "openucxUCX\src\ucp\core\ucp_mm.c" -> "openucxUCX\src\ucp\core\ucp_mm.h"
+    "openucxUCX\src\ucp\core\ucp_mm.c" -> "openucxUCX\src\ucp\core\ucp_context.h"
+    "openucxUCX\src\ucp\core\ucp_mm.c" -> "openucxUCX\src\ucp\core\ucp_worker.h"
+    "openucxUCX\src\ucp\core\ucp_mm.c" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\src\ucp\core\ucp_proxy_ep.c" -> "openucxUCX\src\ucp\core\ucp_proxy_ep.h"
+    "openucxUCX\src\ucp\core\ucp_proxy_ep.h" -> "openucxUCX\src\ucp\core\ucp_types.h"
+    "openucxUCX\src\ucp\core\ucp_request.c" -> "openucxUCX\src\ucp\core\ucp_context.h"
+    "openucxUCX\src\ucp\core\ucp_request.c" -> "openucxUCX\src\ucp\core\ucp_worker.h"
+    "openucxUCX\src\ucp\core\ucp_request.h" -> "openucxUCX\src\ucp\core\ucp_context.h"
+    "openucxUCX\src\ucp\core\ucp_request.h" -> "openucxUCX\src\ucp\core\ucp_mm.h"
+    "openucxUCX\src\ucp\core\ucp_rkey.c" -> "openucxUCX\src\ucp\core\ucp_mm.h"
+    "openucxUCX\src\ucp\core\ucp_rkey.c" -> "openucxUCX\src\ucp\core\ucp_request.h"
+    "openucxUCX\src\ucp\core\ucp_worker.c" -> "openucxUCX\src\ucp\core\ucp_am.h"
+    "openucxUCX\src\ucp\core\ucp_worker.c" -> "openucxUCX\src\ucp\core\ucp_worker.h"
+    "openucxUCX\src\ucp\core\ucp_worker.c" -> "openucxUCX\src\ucp\core\ucp_mm.h"
+    "openucxUCX\src\ucp\core\ucp_worker.h" -> "openucxUCX\src\ucp\core\ucp_ep.h"
+    "openucxUCX\src\ucp\core\ucp_worker.h" -> "openucxUCX\src\ucp\core\ucp_context.h"
+    "openucxUCX\src\ucp\core\ucp_worker.h" -> "openucxUCX\src\ucp\core\ucp_thread.h"
+    "openucxUCX\src\ucp\dt\dt.c" -> "openucxUCX\src\ucp\dt\dt.h"
+    "openucxUCX\src\ucp\dt\dt.h" -> "openucxUCX\src\ucp\dt\dt_contig.h"
+    "openucxUCX\src\ucp\dt\dt.h" -> "openucxUCX\src\ucp\dt\dt_iov.h"
+    "openucxUCX\src\ucp\dt\dt.h" -> "openucxUCX\src\ucp\dt\dt_generic.h"
+    "openucxUCX\src\ucp\dt\dt_contig.c" -> "openucxUCX\src\ucp\dt\dt_contig.h"
+    "openucxUCX\src\ucp\dt\dt_contig.c" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\src\ucp\dt\dt_generic.c" -> "openucxUCX\src\ucp\dt\dt_generic.h"
+    "openucxUCX\src\ucp\dt\dt_iov.c" -> "openucxUCX\src\ucp\dt\dt_iov.h"
+    "openucxUCX\src\ucp\dt\dt_iov.c" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\src\ucp\proto\proto_am.c" -> "openucxUCX\src\ucp\proto\proto.h"
+    "openucxUCX\src\ucp\rma\amo_basic.c" -> "openucxUCX\src\ucp\rma\rma.h"
+    "openucxUCX\src\ucp\rma\amo_send.c" -> "openucxUCX\src\ucp\rma\rma.h"
+    "openucxUCX\src\ucp\rma\amo_sw.c" -> "openucxUCX\src\ucp\rma\rma.h"
+    "openucxUCX\src\ucp\rma\rma_basic.c" -> "openucxUCX\src\ucp\rma\rma.h"
+    "openucxUCX\src\ucp\rma\rma_send.c" -> "openucxUCX\src\ucp\rma\rma.h"
+    "openucxUCX\src\ucp\rma\rma_sw.c" -> "openucxUCX\src\ucp\rma\rma.h"
+    "openucxUCX\src\ucp\tag\eager.h" -> "openucxUCX\src\ucp\tag\tag_match.h"
+    "openucxUCX\src\ucp\tag\eager_rcv.c" -> "openucxUCX\src\ucp\tag\eager.h"
+    "openucxUCX\src\ucp\tag\eager_rcv.c" -> "openucxUCX\src\ucp\tag\offload.h"
+    "openucxUCX\src\ucp\tag\eager_snd.c" -> "openucxUCX\src\ucp\tag\eager.h"
+    "openucxUCX\src\ucp\tag\eager_snd.c" -> "openucxUCX\src\ucp\tag\offload.h"
+    "openucxUCX\src\ucp\tag\offload.c" -> "openucxUCX\src\ucp\tag\offload.h"
+    "openucxUCX\src\ucp\tag\offload.c" -> "openucxUCX\src\ucp\tag\eager.h"
+    "openucxUCX\src\ucp\tag\offload.c" -> "openucxUCX\src\ucp\tag\rndv.h"
+    "openucxUCX\src\ucp\tag\probe.c" -> "openucxUCX\src\ucp\tag\eager.h"
+    "openucxUCX\src\ucp\tag\probe.c" -> "openucxUCX\src\ucp\tag\rndv.h"
+    "openucxUCX\src\ucp\tag\rndv.c" -> "openucxUCX\src\ucp\tag\rndv.h"
+    "openucxUCX\src\ucp\tag\rndv.c" -> "openucxUCX\src\ucp\tag\offload.h"
+    "openucxUCX\src\ucp\tag\rndv.h" -> "openucxUCX\src\ucp\tag\tag_match.h"
+    "openucxUCX\src\ucp\tag\tag_recv.c" -> "openucxUCX\src\ucp\tag\eager.h"
+    "openucxUCX\src\ucp\tag\tag_recv.c" -> "openucxUCX\src\ucp\tag\rndv.h"
+    "openucxUCX\src\ucp\tag\tag_recv.c" -> "openucxUCX\src\ucp\tag\offload.h"
+    "openucxUCX\src\ucp\tag\tag_send.c" -> "openucxUCX\src\ucp\tag\tag_match.h"
+    "openucxUCX\src\ucp\tag\tag_send.c" -> "openucxUCX\src\ucp\tag\eager.h"
+    "openucxUCX\src\ucp\tag\tag_send.c" -> "openucxUCX\src\ucp\tag\rndv.h"
+    "openucxUCX\src\ucp\tag\tag_send.c" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\src\ucp\wireup\address.c" -> "openucxUCX\src\ucp\wireup\address.h"
+    "openucxUCX\src\ucp\wireup\address.c" -> "openucxUCX\src\ucp\wireup\wireup_ep.h"
+    "openucxUCX\src\ucp\wireup\address.h" -> "openucxUCX\src\ucp\wireup\wireup.h"
+    "openucxUCX\src\ucp\wireup\select.c" -> "openucxUCX\src\ucp\wireup\wireup.h"
+    "openucxUCX\src\ucp\wireup\select.c" -> "openucxUCX\src\ucp\wireup\address.h"
+    "openucxUCX\src\ucp\wireup\select.c" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\src\ucp\wireup\signaling_ep.c" -> "openucxUCX\src\ucp\wireup\wireup.h"
+    "openucxUCX\src\ucp\wireup\wireup.c" -> "openucxUCX\src\ucp\wireup\wireup.h"
+    "openucxUCX\src\ucp\wireup\wireup.c" -> "openucxUCX\src\ucp\wireup\address.h"
+    "openucxUCX\src\ucp\wireup\wireup.c" -> "openucxUCX\src\ucp\wireup\wireup_ep.h"
+    "openucxUCX\src\ucp\wireup\wireup_ep.c" -> "openucxUCX\src\ucp\wireup\wireup_ep.h"
+    "openucxUCX\src\ucp\wireup\wireup_ep.c" -> "openucxUCX\src\ucp\wireup\wireup.h"
+    "openucxUCX\src\ucp\wireup\wireup_ep.h" -> "openucxUCX\src\ucp\wireup\address.h"
+    "openucxUCX\src\ucs\algorithm\crc.c" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\src\ucs\algorithm\qsort_r.c" -> "openucxUCX\src\ucs\algorithm\qsort_r.h"
+    "openucxUCX\src\ucs\arch\aarch64\cpu.h" -> "openucxUCX\src\ucs\time\time.h"
+    "openucxUCX\src\ucs\arch\aarch64\cpu.h" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\src\ucs\arch\ppc64\cpu.h" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\src\ucs\arch\x86_64\cpu.h" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\src\ucs\async\async.c" -> "openucxUCX\src\ucs\async\async_int.h"
+    "openucxUCX\src\ucs\async\async.h" -> "openucxUCX\src\ucp\core\ucp_thread.h"
+    "openucxUCX\src\ucs\async\async.h" -> "openucxUCX\src\ucs\async\signal.h"
+    "openucxUCX\src\ucs\async\async.h" -> "openucxUCX\src\ucs\async\async_fwd.h"
+    "openucxUCX\src\ucs\async\async_int.h" -> "openucxUCX\src\ucs\async\async.h"
+    "openucxUCX\src\ucs\async\pipe.c" -> "openucxUCX\src\ucs\async\pipe.h"
+    "openucxUCX\src\ucs\async\signal.c" -> "openucxUCX\src\ucs\async\signal.h"
+    "openucxUCX\src\ucs\async\signal.c" -> "openucxUCX\src\ucs\async\async_int.h"
+    "openucxUCX\src\ucs\async\signal.c" -> "openucxUCX\src\ucs\async\signal.h"
+    "openucxUCX\src\ucs\async\thread.c" -> "openucxUCX\src\ucp\core\ucp_thread.h"
+    "openucxUCX\src\ucs\async\thread.c" -> "openucxUCX\src\ucs\async\async_int.h"
+    "openucxUCX\src\ucs\async\thread.c" -> "openucxUCX\src\ucs\async\pipe.h"
+    "openucxUCX\src\ucs\config\global_opts.c" -> "openucxUCX\src\ucs\arch\aarch64\global_opts.h"
+    "openucxUCX\src\ucs\config\global_opts.h" -> "openucxUCX\src\ucp\core\ucp_types.h"
+    "openucxUCX\src\ucs\config\parser.c" -> "openucxUCX\src\ucs\config\parser.h"
+    "openucxUCX\src\ucs\config\parser.h" -> "openucxUCX\src\ucp\core\ucp_types.h"
+    "openucxUCX\src\ucs\config\ucm_opts.c" -> "openucxUCX\src\ucs\config\parser.h"
+    "openucxUCX\src\ucs\datastruct\arbiter.c" -> "openucxUCX\src\ucs\datastruct\arbiter.h"
+    "openucxUCX\src\ucs\datastruct\callbackq.c" -> "openucxUCX\src\ucs\datastruct\callbackq.h"
+    "openucxUCX\src\ucs\datastruct\frag_list.c" -> "openucxUCX\src\ucs\datastruct\frag_list.h"
+    "openucxUCX\src\ucs\datastruct\khash.h" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\src\ucs\datastruct\khash.h" -> "openucxUCX\src\ucs\debug\assert.h"
+    "openucxUCX\src\ucs\datastruct\mpmc.c" -> "openucxUCX\src\ucs\datastruct\mpmc.h"
+    "openucxUCX\src\ucs\datastruct\mpool.c" -> "openucxUCX\src\ucs\datastruct\mpool.h"
+    "openucxUCX\src\ucs\datastruct\mpool.c" -> "openucxUCX\src\ucs\datastruct\queue.h"
+    "openucxUCX\src\ucs\datastruct\pgtable.c" -> "openucxUCX\src\ucs\datastruct\pgtable.h"
+    "openucxUCX\src\ucs\datastruct\pgtable.c" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\src\ucs\datastruct\ptr_array.c" -> "openucxUCX\src\ucs\datastruct\ptr_array.h"
+    "openucxUCX\src\ucs\datastruct\queue.h" -> "openucxUCX\src\ucs\datastruct\queue_types.h"
+    "openucxUCX\src\ucs\datastruct\sglib.h" -> "openucxUCX\src\ucs\debug\assert.h"
+    "openucxUCX\src\ucs\datastruct\sglib_wrapper.h" -> "openucxUCX\src\ucs\datastruct\sglib.h"
+    "openucxUCX\src\ucs\datastruct\strided_alloc.c" -> "openucxUCX\src\ucs\datastruct\strided_alloc.h"
+    "openucxUCX\src\ucs\datastruct\strided_alloc.c" -> "openucxUCX\src\ucs\datastruct\queue.h"
+    "openucxUCX\src\ucs\datastruct\strided_alloc.h" -> "openucxUCX\src\ucs\datastruct\queue_types.h"
+    "openucxUCX\src\ucs\debug\assert.c" -> "openucxUCX\src\ucs\debug\assert.h"
+    "openucxUCX\src\ucs\debug\assert.c" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\src\ucs\debug\debug.c" -> "openucxUCX\src\ucs\debug\debug.h"
+    "openucxUCX\src\ucs\debug\debug.c" -> "openucxUCX\src\ucm\util\log.h"
+    "openucxUCX\src\ucs\debug\log.c" -> "openucxUCX\src\ucm\util\log.h"
+    "openucxUCX\src\ucs\debug\memtrack.c" -> "openucxUCX\src\ucs\debug\memtrack.h"
+    "openucxUCX\src\ucs\memory\memory_type.c" -> "openucxUCX\src\ucs\memory\memory_type.h"
+    "openucxUCX\src\ucs\memory\memtype_cache.c" -> "openucxUCX\src\ucs\memory\memtype_cache.h"
+    "openucxUCX\src\ucs\memory\memtype_cache.h" -> "openucxUCX\src\ucs\memory\memory_type.h"
+    "openucxUCX\src\ucs\memory\numa.c" -> "openucxUCX\src\ucs\memory\numa.h"
+    "openucxUCX\src\ucs\memory\numa.h" -> "openucxUCX\src\ucs\memory\numa.h"
+    "openucxUCX\src\ucs\memory\rcache.c" -> "openucxUCX\src\ucs\memory\rcache.h"
+    "openucxUCX\src\ucs\memory\rcache.c" -> "openucxUCX\src\ucs\memory\rcache_int.h"
+    "openucxUCX\src\ucs\profile\profile.c" -> "openucxUCX\src\ucs\profile\profile.h"
+    "openucxUCX\src\ucs\profile\profile.h" -> "openucxUCX\src\ucs\profile\profile_on.h"
+    "openucxUCX\src\ucs\profile\profile.h" -> "openucxUCX\src\ucs\profile\profile_off.h"
+    "openucxUCX\src\ucs\profile\profile_off.h" -> "openucxUCX\src\ucs\profile\profile_defs.h"
+    "openucxUCX\src\ucs\profile\profile_on.h" -> "openucxUCX\src\ucs\profile\profile_defs.h"
+    "openucxUCX\src\ucs\stats\client_server.c" -> "openucxUCX\src\ucs\stats\libstats.h"
+    "openucxUCX\src\ucs\stats\client_server.c" -> "openucxUCX\src\ucs\debug\assert.h"
+    "openucxUCX\src\ucs\stats\client_server.c" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\src\ucs\stats\libstats.c" -> "openucxUCX\src\ucs\stats\libstats.h"
+    "openucxUCX\src\ucs\stats\libstats.c" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\src\ucs\stats\serialization.c" -> "openucxUCX\src\ucs\stats\libstats.h"
+    "openucxUCX\src\ucs\stats\serialization.c" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\src\ucs\stats\stats.c" -> "openucxUCX\src\ucs\stats\libstats.h"
+    "openucxUCX\src\ucs\stats\stats.h" -> "openucxUCX\src\ucs\stats\stats_fwd.h"
+    "openucxUCX\src\ucs\stats\stats.h" -> "openucxUCX\src\ucs\stats\libstats.h"
+    "openucxUCX\src\ucs\stats\stats_parser.c" -> "openucxUCX\src\ucs\stats\libstats.h"
+    "openucxUCX\src\ucs\stats\stats_reader.c" -> "openucxUCX\src\ucs\stats\libstats.h"
+    "openucxUCX\src\ucs\stats\stats_reader.c" -> "openucxUCX\src\ucs\sys\math.h"
+    "openucxUCX\src\ucs\stats\stats_reader.c" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\src\ucs\sys\compiler.h" -> "openucxUCX\src\ucs\sys\preprocessor.h"
+    "openucxUCX\src\ucs\sys\compiler.h" -> "openucxUCX\src\ucs\sys\compiler_def.h"
+    "openucxUCX\src\ucs\sys\event_set.c" -> "openucxUCX\src\ucs\sys\event_set.h"
+    "openucxUCX\src\ucs\sys\event_set.c" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\src\ucs\sys\math.c" -> "openucxUCX\src\ucs\sys\math.h"
+    "openucxUCX\src\ucs\sys\math.h" -> "openucxUCX\src\ucs\sys\compiler_def.h"
+    "openucxUCX\src\ucs\sys\math.h" -> "openucxUCX\src\ucs\sys\math.h"
+    "openucxUCX\src\ucs\sys\module.c" -> "openucxUCX\src\ucs\sys\module.h"
+    "openucxUCX\src\ucs\sys\module.c" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\src\ucs\sys\sock.c" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\src\ucs\sys\string.c" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\src\ucs\sys\string.c" -> "openucxUCX\src\ucs\sys\math.h"
+    "openucxUCX\src\ucs\sys\string.c" -> "openucxUCX\src\ucm\util\sys.h"
+    "openucxUCX\src\ucs\sys\string.c" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\src\ucs\sys\string.c" -> "openucxUCX\src\ucs\time\time.h"
+    "openucxUCX\src\ucs\sys\string.h" -> "openucxUCX\src\ucs\sys\compiler_def.h"
+    "openucxUCX\src\ucs\sys\string.h" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\src\ucs\sys\sys.h" -> "openucxUCX\src\ucs\debug\assert.h"
+    "openucxUCX\src\ucs\sys\sys.h" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\src\ucs\sys\sys.h" -> "openucxUCX\src\ucs\async\signal.h"
+    "openucxUCX\src\ucs\sys\sys.h" -> "openucxUCX\src\ucs\sys\math.h"
+    "openucxUCX\src\ucs\time\timerq.c" -> "openucxUCX\src\ucs\time\timerq.h"
+    "openucxUCX\src\ucs\type\class.c" -> "openucxUCX\src\ucs\type\class.h"
+    "openucxUCX\src\ucs\type\spinlock.c" -> "openucxUCX\src\ucs\type\spinlock.h"
+    "openucxUCX\src\ucs\type\spinlock.c" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\src\ucs\type\status.c" -> "openucxUCX\src\ucs\type\status.h"
+    "openucxUCX\src\uct\api\tl.h" -> "openucxUCX\src\uct\api\uct_def.h"
+    "openucxUCX\src\uct\base\uct_cm.c" -> "openucxUCX\src\uct\base\uct_cm.h"
+    "openucxUCX\src\uct\base\uct_component.c" -> "openucxUCX\src\uct\base\uct_component.h"
+    "openucxUCX\src\uct\base\uct_component.c" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\src\uct\base\uct_iface.c" -> "openucxUCX\src\uct\base\uct_iface.h"
+    "openucxUCX\src\uct\base\uct_iface.c" -> "openucxUCX\src\uct\base\uct_cm.h"
+    "openucxUCX\src\uct\base\uct_iface.h" -> "openucxUCX\src\uct\base\uct_worker.h"
+    "openucxUCX\src\uct\base\uct_log.h" -> "openucxUCX\src\uct\base\uct_iface.h"
+    "openucxUCX\src\uct\base\uct_md.c" -> "openucxUCX\src\uct\base\uct_md.h"
+    "openucxUCX\src\uct\base\uct_md.c" -> "openucxUCX\src\uct\base\uct_iface.h"
+    "openucxUCX\src\uct\base\uct_md.h" -> "openucxUCX\src\uct\base\uct_component.h"
+    "openucxUCX\src\uct\base\uct_md.h" -> "openucxUCX\src\uct\base\uct_iface.h"
+    "openucxUCX\src\uct\base\uct_mem.c" -> "openucxUCX\src\uct\base\uct_iface.h"
+    "openucxUCX\src\uct\base\uct_mem.c" -> "openucxUCX\src\uct\base\uct_md.h"
+    "openucxUCX\src\uct\base\uct_worker.c" -> "openucxUCX\src\uct\base\uct_worker.h"
+    "openucxUCX\src\uct\cuda\base\cuda_md.c" -> "openucxUCX\src\uct\cuda\base\cuda_md.h"
+    "openucxUCX\src\uct\cuda\cuda_copy\cuda_copy_ep.c" -> "openucxUCX\src\uct\cuda\cuda_copy\cuda_copy_ep.h"
+    "openucxUCX\src\uct\cuda\cuda_copy\cuda_copy_ep.c" -> "openucxUCX\src\uct\cuda\cuda_copy\cuda_copy_iface.h"
+    "openucxUCX\src\uct\cuda\cuda_copy\cuda_copy_iface.c" -> "openucxUCX\src\uct\cuda\cuda_copy\cuda_copy_iface.h"
+    "openucxUCX\src\uct\cuda\cuda_copy\cuda_copy_iface.c" -> "openucxUCX\src\uct\cuda\cuda_copy\cuda_copy_md.h"
+    "openucxUCX\src\uct\cuda\cuda_copy\cuda_copy_iface.c" -> "openucxUCX\src\uct\cuda\cuda_copy\cuda_copy_ep.h"
+    "openucxUCX\src\uct\cuda\cuda_copy\cuda_copy_md.c" -> "openucxUCX\src\uct\cuda\cuda_copy\cuda_copy_md.h"
+    "openucxUCX\src\uct\cuda\cuda_copy\cuda_copy_md.c" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\src\uct\cuda\cuda_ipc\cuda_ipc_cache.c" -> "openucxUCX\src\uct\cuda\cuda_ipc\cuda_ipc_cache.h"
+    "openucxUCX\src\uct\cuda\cuda_ipc\cuda_ipc_cache.h" -> "openucxUCX\src\uct\cuda\cuda_ipc\cuda_ipc_md.h"
+    "openucxUCX\src\uct\cuda\cuda_ipc\cuda_ipc_ep.c" -> "openucxUCX\src\uct\cuda\cuda_ipc\cuda_ipc_ep.h"
+    "openucxUCX\src\uct\cuda\cuda_ipc\cuda_ipc_ep.c" -> "openucxUCX\src\uct\cuda\cuda_ipc\cuda_ipc_iface.h"
+    "openucxUCX\src\uct\cuda\cuda_ipc\cuda_ipc_ep.c" -> "openucxUCX\src\uct\cuda\cuda_ipc\cuda_ipc_md.h"
+    "openucxUCX\src\uct\cuda\cuda_ipc\cuda_ipc_ep.h" -> "openucxUCX\src\uct\cuda\cuda_ipc\cuda_ipc_md.h"
+    "openucxUCX\src\uct\cuda\cuda_ipc\cuda_ipc_ep.h" -> "openucxUCX\src\uct\cuda\cuda_ipc\cuda_ipc_cache.h"
+    "openucxUCX\src\uct\cuda\cuda_ipc\cuda_ipc_iface.c" -> "openucxUCX\src\uct\cuda\cuda_ipc\cuda_ipc_iface.h"
+    "openucxUCX\src\uct\cuda\cuda_ipc\cuda_ipc_iface.c" -> "openucxUCX\src\uct\cuda\cuda_ipc\cuda_ipc_md.h"
+    "openucxUCX\src\uct\cuda\cuda_ipc\cuda_ipc_iface.c" -> "openucxUCX\src\uct\cuda\cuda_ipc\cuda_ipc_ep.h"
+    "openucxUCX\src\uct\cuda\cuda_ipc\cuda_ipc_iface.h" -> "openucxUCX\src\uct\cuda\cuda_ipc\cuda_ipc_md.h"
+    "openucxUCX\src\uct\cuda\cuda_ipc\cuda_ipc_iface.h" -> "openucxUCX\src\uct\cuda\cuda_ipc\cuda_ipc_ep.h"
+    "openucxUCX\src\uct\cuda\cuda_ipc\cuda_ipc_md.c" -> "openucxUCX\src\uct\cuda\cuda_ipc\cuda_ipc_md.h"
+    "openucxUCX\src\uct\cuda\cuda_ipc\cuda_ipc_md.c" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\src\uct\cuda\gdr_copy\gdr_copy_ep.c" -> "openucxUCX\src\uct\cuda\gdr_copy\gdr_copy_ep.h"
+    "openucxUCX\src\uct\cuda\gdr_copy\gdr_copy_ep.c" -> "openucxUCX\src\uct\cuda\gdr_copy\gdr_copy_md.h"
+    "openucxUCX\src\uct\cuda\gdr_copy\gdr_copy_ep.c" -> "openucxUCX\src\uct\cuda\gdr_copy\gdr_copy_iface.h"
+    "openucxUCX\src\uct\cuda\gdr_copy\gdr_copy_iface.c" -> "openucxUCX\src\uct\cuda\gdr_copy\gdr_copy_iface.h"
+    "openucxUCX\src\uct\cuda\gdr_copy\gdr_copy_iface.c" -> "openucxUCX\src\uct\cuda\gdr_copy\gdr_copy_md.h"
+    "openucxUCX\src\uct\cuda\gdr_copy\gdr_copy_iface.c" -> "openucxUCX\src\uct\cuda\gdr_copy\gdr_copy_ep.h"
+    "openucxUCX\src\uct\cuda\gdr_copy\gdr_copy_md.c" -> "openucxUCX\src\uct\cuda\gdr_copy\gdr_copy_md.h"
+    "openucxUCX\src\uct\cuda\gdr_copy\gdr_copy_md.c" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\src\uct\ib\base\ib_device.c" -> "openucxUCX\src\uct\ib\base\ib_device.h"
+    "openucxUCX\src\uct\ib\base\ib_device.c" -> "openucxUCX\src\uct\ib\base\ib_md.h"
+    "openucxUCX\src\uct\ib\base\ib_device.h" -> "openucxUCX\src\uct\ib\base\ib_verbs.h"
+    "openucxUCX\src\uct\ib\base\ib_iface.c" -> "openucxUCX\src\uct\ib\base\ib_iface.h"
+    "openucxUCX\src\uct\ib\base\ib_iface.c" -> "openucxUCX\src\uct\ib\base\ib_log.h"
+    "openucxUCX\src\uct\ib\base\ib_iface.c" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\src\uct\ib\base\ib_iface.h" -> "openucxUCX\src\uct\ib\base\ib_md.h"
+    "openucxUCX\src\uct\ib\base\ib_log.c" -> "openucxUCX\src\uct\ib\base\ib_log.h"
+    "openucxUCX\src\uct\ib\base\ib_log.h" -> "openucxUCX\src\uct\ib\base\ib_verbs.h"
+    "openucxUCX\src\uct\ib\base\ib_log.h" -> "openucxUCX\src\uct\ib\base\ib_iface.h"
+    "openucxUCX\src\uct\ib\base\ib_md.c" -> "openucxUCX\src\uct\ib\base\ib_md.h"
+    "openucxUCX\src\uct\ib\base\ib_md.c" -> "openucxUCX\src\uct\ib\base\ib_device.h"
+    "openucxUCX\src\uct\ib\base\ib_md.h" -> "openucxUCX\src\uct\ib\base\ib_device.h"
+    "openucxUCX\src\uct\ib\cm\cm_ep.c" -> "openucxUCX\src\ucm\api\ucm.h"
+    "openucxUCX\src\uct\ib\cm\cm_iface.c" -> "openucxUCX\src\ucm\api\ucm.h"
+    "openucxUCX\src\uct\ib\dc\dc_mlx5.c" -> "openucxUCX\src\uct\ib\dc\dc_mlx5.h"
+    "openucxUCX\src\uct\ib\dc\dc_mlx5.c" -> "openucxUCX\src\uct\ib\dc\dc_mlx5_ep.h"
+    "openucxUCX\src\uct\ib\dc\dc_mlx5.c" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\src\uct\ib\dc\dc_mlx5_ep.c" -> "openucxUCX\src\uct\ib\dc\dc_mlx5_ep.h"
+    "openucxUCX\src\uct\ib\dc\dc_mlx5_ep.c" -> "openucxUCX\src\uct\ib\dc\dc_mlx5.h"
+    "openucxUCX\src\uct\ib\dc\dc_mlx5_ep.h" -> "openucxUCX\src\uct\ib\dc\dc_mlx5.h"
+    "openucxUCX\src\uct\ib\mlx5\dv\ib_mlx5_dv.c" -> "openucxUCX\src\uct\ib\mlx5\dv\ib_mlx5_ifc.h"
+    "openucxUCX\src\uct\ib\mlx5\dv\ib_mlx5dv_md.c" -> "openucxUCX\src\uct\ib\mlx5\dv\ib_mlx5_ifc.h"
+    "openucxUCX\src\uct\ib\mlx5\exp\ib_mlx5_hw.c" -> "openucxUCX\src\uct\ib\mlx5\exp\ib_mlx5_hw.h"
+    "openucxUCX\src\uct\ib\mlx5\exp\ib_mlx5_hw.c" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\src\uct\ib\mlx5\ib_mlx5.c" -> "openucxUCX\src\uct\ib\mlx5\ib_mlx5.h"
+    "openucxUCX\src\uct\ib\mlx5\ib_mlx5.c" -> "openucxUCX\src\uct\ib\mlx5\ib_mlx5_log.h"
+    "openucxUCX\src\uct\ib\mlx5\ib_mlx5.c" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\src\uct\ib\mlx5\ib_mlx5.h" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\src\uct\ib\mlx5\ib_mlx5_log.c" -> "openucxUCX\src\uct\ib\mlx5\ib_mlx5_log.h"
+    "openucxUCX\src\uct\ib\mlx5\ib_mlx5_log.c" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\src\uct\ib\mlx5\ib_mlx5_log.h" -> "openucxUCX\src\uct\ib\mlx5\ib_mlx5.h"
+    "openucxUCX\src\uct\ib\rc\accel\rc_mlx5.h" -> "openucxUCX\src\uct\ib\rc\accel\rc_mlx5_common.h"
+    "openucxUCX\src\uct\ib\rc\accel\rc_mlx5_ep.c" -> "openucxUCX\src\uct\ib\rc\accel\rc_mlx5.h"
+    "openucxUCX\src\uct\ib\rc\base\rc_ep.c" -> "openucxUCX\src\uct\ib\rc\base\rc_ep.h"
+    "openucxUCX\src\uct\ib\rc\base\rc_ep.c" -> "openucxUCX\src\uct\ib\rc\base\rc_iface.h"
+    "openucxUCX\src\uct\ib\rc\base\rc_ep.h" -> "openucxUCX\src\uct\ib\rc\base\rc_iface.h"
+    "openucxUCX\src\uct\ib\rc\base\rc_iface.c" -> "openucxUCX\src\uct\ib\rc\base\rc_iface.h"
+    "openucxUCX\src\uct\ib\rc\base\rc_iface.c" -> "openucxUCX\src\uct\ib\rc\base\rc_ep.h"
+    "openucxUCX\src\uct\ib\rc\base\rc_iface.h" -> "openucxUCX\src\uct\ib\rc\base\rc_def.h"
+    "openucxUCX\src\uct\ib\rc\verbs\rc_verbs_ep.c" -> "openucxUCX\src\uct\ib\rc\verbs\rc_verbs.h"
+    "openucxUCX\src\uct\ib\rc\verbs\rc_verbs_ep.c" -> "openucxUCX\src\uct\ib\rc\verbs\rc_verbs_impl.h"
+    "openucxUCX\src\uct\ib\rc\verbs\rc_verbs_iface.c" -> "openucxUCX\src\uct\ib\rc\verbs\rc_verbs.h"
+    "openucxUCX\src\uct\ib\rc\verbs\rc_verbs_iface.c" -> "openucxUCX\src\uct\ib\rc\verbs\rc_verbs_impl.h"
+    "openucxUCX\src\uct\ib\rc\verbs\rc_verbs_iface.c" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\src\uct\ib\rdmacm\rdmacm_cm.c" -> "openucxUCX\src\uct\ib\rdmacm\rdmacm_cm_ep.h"
+    "openucxUCX\src\uct\ib\rdmacm\rdmacm_cm.h" -> "openucxUCX\src\uct\ib\rdmacm\rdmacm_def.h"
+    "openucxUCX\src\uct\ib\rdmacm\rdmacm_cm_ep.c" -> "openucxUCX\src\uct\ib\rdmacm\rdmacm_cm_ep.h"
+    "openucxUCX\src\uct\ib\rdmacm\rdmacm_cm_ep.h" -> "openucxUCX\src\uct\ib\rdmacm\rdmacm_listener.h"
+    "openucxUCX\src\uct\ib\rdmacm\rdmacm_ep.c" -> "openucxUCX\src\uct\ib\rdmacm\rdmacm_ep.h"
+    "openucxUCX\src\uct\ib\rdmacm\rdmacm_ep.h" -> "openucxUCX\src\uct\ib\rdmacm\rdmacm_iface.h"
+    "openucxUCX\src\uct\ib\rdmacm\rdmacm_iface.c" -> "openucxUCX\src\uct\ib\rdmacm\rdmacm_iface.h"
+    "openucxUCX\src\uct\ib\rdmacm\rdmacm_iface.c" -> "openucxUCX\src\uct\ib\rdmacm\rdmacm_ep.h"
+    "openucxUCX\src\uct\ib\rdmacm\rdmacm_iface.h" -> "openucxUCX\src\uct\ib\rdmacm\rdmacm_def.h"
+    "openucxUCX\src\uct\ib\rdmacm\rdmacm_iface.h" -> "openucxUCX\src\uct\ib\rdmacm\rdmacm_md.h"
+    "openucxUCX\src\uct\ib\rdmacm\rdmacm_listener.c" -> "openucxUCX\src\uct\ib\rdmacm\rdmacm_listener.h"
+    "openucxUCX\src\uct\ib\rdmacm\rdmacm_listener.h" -> "openucxUCX\src\uct\ib\rdmacm\rdmacm_cm.h"
+    "openucxUCX\src\uct\ib\rdmacm\rdmacm_md.c" -> "openucxUCX\src\uct\ib\rdmacm\rdmacm_md.h"
+    "openucxUCX\src\uct\ib\rdmacm\rdmacm_md.c" -> "openucxUCX\src\uct\ib\rdmacm\rdmacm_cm.h"
+    "openucxUCX\src\uct\ib\rdmacm\rdmacm_md.h" -> "openucxUCX\src\uct\ib\rdmacm\rdmacm_def.h"
+    "openucxUCX\src\uct\ib\ud\accel\ud_mlx5.c" -> "openucxUCX\src\uct\ib\ud\accel\ud_mlx5.h"
+    "openucxUCX\src\uct\ib\ud\accel\ud_mlx5.c" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\src\uct\ib\ud\accel\ud_mlx5.h" -> "openucxUCX\src\uct\ib\ud\accel\ud_mlx5_common.h"
+    "openucxUCX\src\uct\ib\ud\accel\ud_mlx5_common.c" -> "openucxUCX\src\uct\ib\ud\accel\ud_mlx5_common.h"
+    "openucxUCX\src\uct\ib\ud\base\ud_ep.c" -> "openucxUCX\src\uct\ib\ud\base\ud_ep.h"
+    "openucxUCX\src\uct\ib\ud\base\ud_ep.c" -> "openucxUCX\src\uct\ib\ud\base\ud_iface.h"
+    "openucxUCX\src\uct\ib\ud\base\ud_ep.c" -> "openucxUCX\src\uct\ib\ud\base\ud_inl.h"
+    "openucxUCX\src\uct\ib\ud\base\ud_ep.c" -> "openucxUCX\src\uct\ib\ud\base\ud_def.h"
+    "openucxUCX\src\uct\ib\ud\base\ud_ep.h" -> "openucxUCX\src\uct\ib\ud\base\ud_def.h"
+    "openucxUCX\src\uct\ib\ud\base\ud_iface.c" -> "openucxUCX\src\uct\ib\ud\base\ud_iface.h"
+    "openucxUCX\src\uct\ib\ud\base\ud_iface.c" -> "openucxUCX\src\uct\ib\ud\base\ud_ep.h"
+    "openucxUCX\src\uct\ib\ud\base\ud_iface.c" -> "openucxUCX\src\uct\ib\ud\base\ud_inl.h"
+    "openucxUCX\src\uct\ib\ud\base\ud_iface.h" -> "openucxUCX\src\uct\ib\ud\base\ud_def.h"
+    "openucxUCX\src\uct\ib\ud\base\ud_iface.h" -> "openucxUCX\src\uct\ib\ud\base\ud_ep.h"
+    "openucxUCX\src\uct\ib\ud\base\ud_iface.h" -> "openucxUCX\src\uct\ib\ud\base\ud_iface_common.h"
+    "openucxUCX\src\uct\ib\ud\base\ud_iface_common.c" -> "openucxUCX\src\uct\ib\ud\base\ud_iface_common.h"
+    "openucxUCX\src\uct\ib\ud\base\ud_log.c" -> "openucxUCX\src\uct\ib\ud\base\ud_iface.h"
+    "openucxUCX\src\uct\ib\ud\base\ud_log.c" -> "openucxUCX\src\uct\ib\ud\base\ud_ep.h"
+    "openucxUCX\src\uct\ib\ud\verbs\ud_verbs.c" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\src\uct\ib\ud\verbs\ud_verbs.c" -> "openucxUCX\src\uct\ib\ud\verbs\ud_verbs.h"
+    "openucxUCX\src\uct\rocm\base\rocm_base.c" -> "openucxUCX\src\uct\rocm\base\rocm_base.h"
+    "openucxUCX\src\uct\rocm\copy\rocm_copy_ep.c" -> "openucxUCX\src\uct\rocm\copy\rocm_copy_ep.h"
+    "openucxUCX\src\uct\rocm\copy\rocm_copy_ep.c" -> "openucxUCX\src\uct\rocm\copy\rocm_copy_iface.h"
+    "openucxUCX\src\uct\rocm\copy\rocm_copy_iface.c" -> "openucxUCX\src\uct\rocm\copy\rocm_copy_iface.h"
+    "openucxUCX\src\uct\rocm\copy\rocm_copy_iface.c" -> "openucxUCX\src\uct\rocm\copy\rocm_copy_md.h"
+    "openucxUCX\src\uct\rocm\copy\rocm_copy_iface.c" -> "openucxUCX\src\uct\rocm\copy\rocm_copy_ep.h"
+    "openucxUCX\src\uct\rocm\copy\rocm_copy_md.c" -> "openucxUCX\src\uct\rocm\copy\rocm_copy_md.h"
+    "openucxUCX\src\uct\rocm\copy\rocm_copy_md.c" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\src\uct\rocm\gdr\rocm_gdr_ep.c" -> "openucxUCX\src\uct\rocm\gdr\rocm_gdr_ep.h"
+    "openucxUCX\src\uct\rocm\gdr\rocm_gdr_ep.c" -> "openucxUCX\src\uct\rocm\gdr\rocm_gdr_iface.h"
+    "openucxUCX\src\uct\rocm\gdr\rocm_gdr_iface.c" -> "openucxUCX\src\uct\rocm\gdr\rocm_gdr_iface.h"
+    "openucxUCX\src\uct\rocm\gdr\rocm_gdr_iface.c" -> "openucxUCX\src\uct\rocm\gdr\rocm_gdr_md.h"
+    "openucxUCX\src\uct\rocm\gdr\rocm_gdr_iface.c" -> "openucxUCX\src\uct\rocm\gdr\rocm_gdr_ep.h"
+    "openucxUCX\src\uct\rocm\gdr\rocm_gdr_md.c" -> "openucxUCX\src\uct\rocm\gdr\rocm_gdr_md.h"
+    "openucxUCX\src\uct\rocm\gdr\rocm_gdr_md.c" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\src\uct\rocm\ipc\rocm_ipc_cache.c" -> "openucxUCX\src\uct\rocm\ipc\rocm_ipc_cache.h"
+    "openucxUCX\src\uct\rocm\ipc\rocm_ipc_cache.h" -> "openucxUCX\src\uct\rocm\ipc\rocm_ipc_md.h"
+    "openucxUCX\src\uct\rocm\ipc\rocm_ipc_ep.c" -> "openucxUCX\src\uct\rocm\ipc\rocm_ipc_ep.h"
+    "openucxUCX\src\uct\rocm\ipc\rocm_ipc_ep.c" -> "openucxUCX\src\uct\rocm\ipc\rocm_ipc_iface.h"
+    "openucxUCX\src\uct\rocm\ipc\rocm_ipc_ep.c" -> "openucxUCX\src\uct\rocm\ipc\rocm_ipc_md.h"
+    "openucxUCX\src\uct\rocm\ipc\rocm_ipc_ep.h" -> "openucxUCX\src\uct\rocm\ipc\rocm_ipc_cache.h"
+    "openucxUCX\src\uct\rocm\ipc\rocm_ipc_iface.c" -> "openucxUCX\src\uct\rocm\ipc\rocm_ipc_iface.h"
+    "openucxUCX\src\uct\rocm\ipc\rocm_ipc_iface.c" -> "openucxUCX\src\uct\rocm\ipc\rocm_ipc_md.h"
+    "openucxUCX\src\uct\rocm\ipc\rocm_ipc_iface.c" -> "openucxUCX\src\uct\rocm\ipc\rocm_ipc_ep.h"
+    "openucxUCX\src\uct\rocm\ipc\rocm_ipc_md.c" -> "openucxUCX\src\uct\rocm\ipc\rocm_ipc_md.h"
+    "openucxUCX\src\uct\sm\base\sm_ep.c" -> "openucxUCX\src\uct\sm\base\sm_ep.h"
+    "openucxUCX\src\uct\sm\base\sm_iface.c" -> "openucxUCX\src\uct\sm\base\sm_iface.h"
+    "openucxUCX\src\uct\sm\cma\cma_ep.c" -> "openucxUCX\src\uct\sm\cma\cma_ep.h"
+    "openucxUCX\src\uct\sm\cma\cma_ep.h" -> "openucxUCX\src\uct\sm\cma\cma_iface.h"
+    "openucxUCX\src\uct\sm\cma\cma_iface.c" -> "openucxUCX\src\uct\sm\cma\cma_md.h"
+    "openucxUCX\src\uct\sm\cma\cma_iface.c" -> "openucxUCX\src\uct\sm\cma\cma_iface.h"
+    "openucxUCX\src\uct\sm\cma\cma_iface.c" -> "openucxUCX\src\uct\sm\cma\cma_ep.h"
+    "openucxUCX\src\uct\sm\cma\cma_md.c" -> "openucxUCX\src\uct\sm\cma\cma_md.h"
+    "openucxUCX\src\uct\sm\cma\cma_md.c" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\src\uct\sm\knem\knem_ep.c" -> "openucxUCX\src\uct\sm\knem\knem_ep.h"
+    "openucxUCX\src\uct\sm\knem\knem_ep.c" -> "openucxUCX\src\uct\sm\knem\knem_md.h"
+    "openucxUCX\src\uct\sm\knem\knem_ep.h" -> "openucxUCX\src\uct\sm\knem\knem_iface.h"
+    "openucxUCX\src\uct\sm\knem\knem_iface.c" -> "openucxUCX\src\uct\sm\knem\knem_md.h"
+    "openucxUCX\src\uct\sm\knem\knem_iface.c" -> "openucxUCX\src\uct\sm\knem\knem_iface.h"
+    "openucxUCX\src\uct\sm\knem\knem_iface.c" -> "openucxUCX\src\uct\sm\knem\knem_ep.h"
+    "openucxUCX\src\uct\sm\knem\knem_iface.h" -> "openucxUCX\src\uct\sm\knem\knem_md.h"
+    "openucxUCX\src\uct\sm\knem\knem_md.c" -> "openucxUCX\src\uct\sm\knem\knem_md.h"
+    "openucxUCX\src\uct\sm\mm\base\mm_ep.c" -> "openucxUCX\src\uct\sm\mm\base\mm_ep.h"
+    "openucxUCX\src\uct\sm\mm\base\mm_ep.h" -> "openucxUCX\src\uct\sm\mm\base\mm_iface.h"
+    "openucxUCX\src\uct\sm\mm\base\mm_iface.c" -> "openucxUCX\src\uct\sm\mm\base\mm_iface.h"
+    "openucxUCX\src\uct\sm\mm\base\mm_iface.c" -> "openucxUCX\src\uct\sm\mm\base\mm_ep.h"
+    "openucxUCX\src\uct\sm\mm\base\mm_iface.h" -> "openucxUCX\src\uct\sm\mm\base\mm_def.h"
+    "openucxUCX\src\uct\sm\mm\base\mm_iface.h" -> "openucxUCX\src\uct\sm\mm\base\mm_md.h"
+    "openucxUCX\src\uct\sm\mm\base\mm_md.c" -> "openucxUCX\src\uct\sm\mm\base\mm_md.h"
+    "openucxUCX\src\uct\sm\mm\base\mm_md.h" -> "openucxUCX\src\uct\sm\mm\base\mm_def.h"
+    "openucxUCX\src\uct\sm\self\self.c" -> "openucxUCX\src\uct\sm\self\self.h"
+    "openucxUCX\src\uct\sm\self\self.c" -> "openucxUCX\src\uct\sm\self\self.h"
+    "openucxUCX\src\uct\tcp\sockcm\sockcm_ep.c" -> "openucxUCX\src\uct\tcp\sockcm\sockcm_ep.h"
+    "openucxUCX\src\uct\tcp\sockcm\sockcm_ep.h" -> "openucxUCX\src\uct\tcp\sockcm\sockcm_iface.h"
+    "openucxUCX\src\uct\tcp\sockcm\sockcm_iface.c" -> "openucxUCX\src\uct\tcp\sockcm\sockcm_iface.h"
+    "openucxUCX\src\uct\tcp\sockcm\sockcm_iface.c" -> "openucxUCX\src\uct\tcp\sockcm\sockcm_ep.h"
+    "openucxUCX\src\uct\tcp\sockcm\sockcm_iface.h" -> "openucxUCX\src\uct\tcp\sockcm\sockcm_def.h"
+    "openucxUCX\src\uct\tcp\sockcm\sockcm_iface.h" -> "openucxUCX\src\uct\tcp\sockcm\sockcm_md.h"
+    "openucxUCX\src\uct\tcp\sockcm\sockcm_md.c" -> "openucxUCX\src\uct\tcp\sockcm\sockcm_md.h"
+    "openucxUCX\src\uct\tcp\sockcm\sockcm_md.h" -> "openucxUCX\src\uct\tcp\sockcm\sockcm_def.h"
+    "openucxUCX\src\uct\tcp\tcp_cm.c" -> "openucxUCX\src\uct\tcp\tcp.h"
+    "openucxUCX\src\uct\tcp\tcp_ep.c" -> "openucxUCX\src\uct\tcp\tcp.h"
+    "openucxUCX\src\uct\tcp\tcp_iface.c" -> "openucxUCX\src\uct\tcp\tcp.h"
+    "openucxUCX\src\uct\tcp\tcp_md.c" -> "openucxUCX\src\uct\tcp\tcp.h"
+    "openucxUCX\src\uct\tcp\tcp_net.c" -> "openucxUCX\src\uct\tcp\tcp.h"
+    "openucxUCX\src\uct\ugni\base\ugni_device.c" -> "openucxUCX\src\uct\ugni\base\ugni_device.h"
+    "openucxUCX\src\uct\ugni\base\ugni_device.c" -> "openucxUCX\src\uct\ugni\base\ugni_md.h"
+    "openucxUCX\src\uct\ugni\base\ugni_device.c" -> "openucxUCX\src\uct\ugni\base\ugni_iface.h"
+    "openucxUCX\src\uct\ugni\base\ugni_device.c" -> "openucxUCX\contrib\cray-ugni-mock\include\pmi.h"
+    "openucxUCX\src\uct\ugni\base\ugni_device.h" -> "openucxUCX\src\uct\ugni\base\ugni_types.h"
+    "openucxUCX\src\uct\ugni\base\ugni_ep.c" -> "openucxUCX\src\uct\ugni\base\ugni_ep.h"
+    "openucxUCX\src\uct\ugni\base\ugni_ep.c" -> "openucxUCX\src\uct\ugni\base\ugni_iface.h"
+    "openucxUCX\src\uct\ugni\base\ugni_ep.h" -> "openucxUCX\src\uct\ugni\base\ugni_def.h"
+    "openucxUCX\src\uct\ugni\base\ugni_ep.h" -> "openucxUCX\src\uct\ugni\base\ugni_types.h"
+    "openucxUCX\src\uct\ugni\base\ugni_iface.c" -> "openucxUCX\src\uct\ugni\base\ugni_types.h"
+    "openucxUCX\src\uct\ugni\base\ugni_iface.c" -> "openucxUCX\src\uct\ugni\base\ugni_md.h"
+    "openucxUCX\src\uct\ugni\base\ugni_iface.c" -> "openucxUCX\src\uct\ugni\base\ugni_device.h"
+    "openucxUCX\src\uct\ugni\base\ugni_iface.c" -> "openucxUCX\src\uct\ugni\base\ugni_ep.h"
+    "openucxUCX\src\uct\ugni\base\ugni_iface.c" -> "openucxUCX\src\uct\ugni\base\ugni_iface.h"
+    "openucxUCX\src\uct\ugni\base\ugni_iface.h" -> "openucxUCX\src\uct\ugni\base\ugni_types.h"
+    "openucxUCX\src\uct\ugni\base\ugni_md.c" -> "openucxUCX\src\uct\ugni\base\ugni_device.h"
+    "openucxUCX\src\uct\ugni\base\ugni_md.c" -> "openucxUCX\src\uct\ugni\base\ugni_iface.h"
+    "openucxUCX\src\uct\ugni\base\ugni_md.c" -> "openucxUCX\src\uct\ugni\base\ugni_md.h"
+    "openucxUCX\src\uct\ugni\base\ugni_md.h" -> "openucxUCX\src\uct\ugni\base\ugni_types.h"
+    "openucxUCX\src\uct\ugni\base\ugni_md.h" -> "openucxUCX\src\uct\ugni\base\ugni_def.h"
+    "openucxUCX\src\uct\ugni\base\ugni_types.h" -> "openucxUCX\src\uct\ugni\base\ugni_def.h"
+    "openucxUCX\src\uct\ugni\base\ugni_types.h" -> "openucxUCX\contrib\cray-ugni-mock\include\gni_pub.h"
+    "openucxUCX\src\uct\ugni\rdma\ugni_rdma_ep.c" -> "openucxUCX\src\uct\ugni\rdma\ugni_rdma_ep.h"
+    "openucxUCX\src\uct\ugni\rdma\ugni_rdma_ep.c" -> "openucxUCX\src\uct\ugni\rdma\ugni_rdma_iface.h"
+    "openucxUCX\src\uct\ugni\rdma\ugni_rdma_iface.c" -> "openucxUCX\src\uct\ugni\rdma\ugni_rdma_ep.h"
+    "openucxUCX\src\uct\ugni\rdma\ugni_rdma_iface.c" -> "openucxUCX\src\uct\ugni\rdma\ugni_rdma_iface.h"
+    "openucxUCX\src\uct\ugni\smsg\ugni_smsg_ep.c" -> "openucxUCX\src\uct\ugni\smsg\ugni_smsg_ep.h"
+    "openucxUCX\src\uct\ugni\smsg\ugni_smsg_ep.c" -> "openucxUCX\src\uct\ugni\smsg\ugni_smsg_iface.h"
+    "openucxUCX\src\uct\ugni\smsg\ugni_smsg_ep.h" -> "openucxUCX\contrib\cray-ugni-mock\include\gni_pub.h"
+    "openucxUCX\src\uct\ugni\smsg\ugni_smsg_iface.c" -> "openucxUCX\src\uct\ugni\smsg\ugni_smsg_iface.h"
+    "openucxUCX\src\uct\ugni\smsg\ugni_smsg_iface.c" -> "openucxUCX\src\uct\ugni\smsg\ugni_smsg_ep.h"
+    "openucxUCX\src\uct\ugni\smsg\ugni_smsg_iface.h" -> "openucxUCX\src\uct\ugni\smsg\ugni_smsg_ep.h"
+    "openucxUCX\src\uct\ugni\smsg\ugni_smsg_iface.h" -> "openucxUCX\contrib\cray-ugni-mock\include\gni_pub.h"
+    "openucxUCX\src\uct\ugni\udt\ugni_udt_ep.c" -> "openucxUCX\src\uct\ugni\udt\ugni_udt_ep.h"
+    "openucxUCX\src\uct\ugni\udt\ugni_udt_ep.c" -> "openucxUCX\src\uct\ugni\udt\ugni_udt_iface.h"
+    "openucxUCX\src\uct\ugni\udt\ugni_udt_iface.c" -> "openucxUCX\src\uct\ugni\udt\ugni_udt_iface.h"
+    "openucxUCX\src\uct\ugni\udt\ugni_udt_iface.c" -> "openucxUCX\src\uct\ugni\udt\ugni_udt_ep.h"
+    "openucxUCX\src\uct\ugni\udt\ugni_udt_iface.h" -> "openucxUCX\src\uct\ugni\udt\ugni_udt_ep.h"
+    "openucxUCX\test\apps\sockaddr\sa_base.h" -> "openucxUCX\test\apps\sockaddr\sa_util.h"
+    "openucxUCX\test\apps\sockaddr\sa_base.h" -> "openucxUCX\src\ucs\memory\memory_type.c"
+    "openucxUCX\test\apps\sockaddr\sa_tcp.h" -> "openucxUCX\test\apps\sockaddr\sa_base.h"
+    "openucxUCX\test\apps\sockaddr\sa_tcp.h" -> "openucxUCX\test\apps\sockaddr\sa_util.h"
+    "openucxUCX\test\apps\sockaddr\sa_util.h" -> "openucxUCX\src\ucs\sys\string.c"
+    "openucxUCX\test\examples\ucp_client_server.c" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\test\examples\ucp_hello_world.c" -> "openucxUCX\test\examples\ucx_hello_world.h"
+    "openucxUCX\test\examples\ucp_hello_world.c" -> "openucxUCX\src\ucs\debug\assert.h"
+    "openucxUCX\test\examples\ucp_hello_world.c" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\test\examples\ucp_hello_world.c" -> "openucxUCX\src\ucs\time\time.h"
+    "openucxUCX\test\examples\ucp_hello_world.c" -> "openucxUCX\src\ucs\async\signal.h"
+    "openucxUCX\test\examples\uct_hello_world.c" -> "openucxUCX\test\examples\ucx_hello_world.h"
+    "openucxUCX\test\examples\uct_hello_world.c" -> "openucxUCX\src\ucs\debug\assert.h"
+    "openucxUCX\test\examples\ucx_hello_world.h" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\test\examples\ucx_hello_world.h" -> "openucxUCX\src\ucs\time\time.h"
+    "openucxUCX\test\examples\ucx_profiling.c" -> "openucxUCX\src\ucs\sys\math.h"
+    "openucxUCX\test\gtest\common\gtest.h" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\test\gtest\common\gtest.h" -> "openucxUCX\src\ucs\sys\string.c"
+    "openucxUCX\test\gtest\common\gtest.h" -> "openucxUCX\src\ucs\time\time.h"
+    "openucxUCX\test\gtest\common\gtest.h" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\test\gtest\common\gtest.h" -> "openucxUCX\src\ucs\sys\event_set.c"
+    "openucxUCX\test\gtest\common\gtest.h" -> "openucxUCX\src\ucm\cuda\cudamem.h"
+    "openucxUCX\test\gtest\common\gtest.h" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\test\gtest\common\gtest.h" -> "openucxUCX\src\ucs\sys\string.c"
+    "openucxUCX\test\gtest\common\gtest.h" -> "openucxUCX\src\ucs\debug\assert.h"
+    "openucxUCX\test\gtest\common\gtest.h" -> "openucxUCX\src\ucs\sys\string.c"
+    "openucxUCX\test\gtest\common\tap.h" -> "openucxUCX\src\ucp\core\ucp_listener.c"
+    "openucxUCX\test\gtest\common\tap.h" -> "openucxUCX\src\ucm\mmap\install.c"
+    "openucxUCX\test\gtest\common\tap.h" -> "openucxUCX\src\ucs\sys\string.c"
+    "openucxUCX\test\gtest\common\tap.h" -> "openucxUCX\src\ucs\algorithm\crc.c"
+    "openucxUCX\test\gtest\common\test.h" -> "openucxUCX\test\gtest\common\test_helpers.h"
+    "openucxUCX\test\gtest\common\test.h" -> "openucxUCX\src\ucm\mmap\install.c"
+    "openucxUCX\test\gtest\common\test.h" -> "openucxUCX\src\ucs\sys\string.c"
+    "openucxUCX\test\gtest\common\test_helpers.h" -> "openucxUCX\test\gtest\common\gtest.h"
+    "openucxUCX\test\gtest\common\test_helpers.h" -> "openucxUCX\src\ucs\sys\string.c"
+    "openucxUCX\test\gtest\common\test_helpers.h" -> "openucxUCX\src\ucs\algorithm\crc.c"
+    "openucxUCX\test\gtest\ucp\test_ucp_atomic.h" -> "openucxUCX\test\gtest\ucp\test_ucp_memheap.h"
+    "openucxUCX\test\gtest\ucp\test_ucp_memheap.h" -> "openucxUCX\test\gtest\ucp\ucp_test.h"
+    "openucxUCX\test\gtest\ucp\test_ucp_tag.h" -> "openucxUCX\test\gtest\ucp\ucp_test.h"
+    "openucxUCX\test\gtest\ucp\ucp_datatype.h" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\test\gtest\ucp\ucp_test.h" -> "openucxUCX\src\ucs\datastruct\queue.h"
+    "openucxUCX\test\gtest\uct\test_amo.h" -> "openucxUCX\test\gtest\uct\uct_test.h"
+    "openucxUCX\test\gtest\uct\test_md.h" -> "openucxUCX\test\gtest\uct\uct_test.h"
+    "openucxUCX\test\gtest\uct\test_p2p_mix.h" -> "openucxUCX\test\gtest\uct\uct_p2p_test.h"
+    "openucxUCX\test\gtest\uct\test_p2p_rma.h" -> "openucxUCX\test\gtest\uct\uct_p2p_test.h"
+    "openucxUCX\test\gtest\uct\uct_p2p_test.h" -> "openucxUCX\test\gtest\uct\uct_test.h"
+    "openucxUCX\test\mpi\shmem_pingpong.c" -> "openucxUCX\src\ucs\sys\string.h"
+    "openucxUCX\test\mpi\test_memhooks.c" -> "openucxUCX\src\ucs\sys\string.h"
+}

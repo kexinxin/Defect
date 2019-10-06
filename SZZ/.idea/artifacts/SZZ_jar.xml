@@ -1,0 +1,26 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SZZ:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/SZZ_jar</output-path>
+    <root id="archive" name="SZZ.jar">
+      <element id="module-output" name="SZZ" />
+      <element id="extracted-dir" path="D:/maven-repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/maven-repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/maven-repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/maven-repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/maven-repository/com/googlecode/javaewah/JavaEWAH/1.1.6/JavaEWAH-1.1.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/maven-repository/org/jfree/jfreechart/1.0.19/jfreechart-1.0.19.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/maven-repository/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/maven-repository/commons-io/commons-io/2.5/commons-io-2.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/maven-repository/org/jfree/jfreesvg/3.2/jfreesvg-3.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/maven-repository/org/eclipse/jgit/org.eclipse.jgit/4.5.7.201904151645-r/org.eclipse.jgit-4.5.7.201904151645-r.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/maven-repository/org/glassfish/javax.servlet/3.1.1/javax.servlet-3.1.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/maven-repository/com/jcraft/jsch/0.1.54/jsch-0.1.54.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/maven-repository/org/jfree/jcommon/1.0.23/jcommon-1.0.23.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/maven-repository/org/apache/commons/commons-csv/1.4/commons-csv-1.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/maven-repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/gitblit.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/maven-repository/org/eclipse/mylyn/github/org.eclipse.egit.github.core/2.1.5/org.eclipse.egit.github.core-2.1.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/maven-repository/com/google/code/gson/gson/2.3.1/gson-2.3.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,7 @@
+digraph case1 { 
+    rankdir=TD;
+    node[fontsize=12,font=courier,height=0.2];
+    edge[fontsize=10,font=courier];
+    graph[center = true,color=white,fontsize=10,font=courier,height=0.2,fontcolor=gray];
+n20 [label=<<table border="0" cellspacing="0" cellpadding="0"><tr><td>data = ((char *)calloc(100, sizeof(char)));</td></tr><tr><td><font point-size="10" color="#666666">CWE401_Memory_Leak__char_calloc_05_bad example.c:37:8-12</font></td></tr></table>>, shape=rectangle, style=filled,color=red, fillcolor=white];
+}; 
